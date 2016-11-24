@@ -397,7 +397,7 @@
                         android:textColor="@color/white"
                         android:textSize="@dimen/text_small" />
 
-                    <com.pheonec.mobbox.utils.NestedListView
+                    <box24.com.box24sdk.utils.NestedListView
                         android:id="@+id/list"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
