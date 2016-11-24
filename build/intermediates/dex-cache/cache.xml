@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6bea93cb34f9f01b689596e9c8281e95ae2a0a18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_4ed7a312df7c66f46f8c2275ef3652017d426c87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_4f9efa018fab5a9d848eda7f1780e10f3a1fa6f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_0a3a0e5c6ad52b8f8b0fb8c74e1ee07bf2163c36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_42f7790562c6e441981f2e26fe675f8ab6646c87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_4a4b773d8066f98696ad16b2e3d2b70ce86c8337.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/okio-1.9.0_5f1d4a865faeb85117297df6634d36252e849937.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8fb753a4a005335cd158d0c9e59ed64478bf7717.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_1f11a9184c42558dd9056bccf644c132c1277494.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_42026834f4aae05cff358e91bf0d65a006e9f48a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_1af1a682a3955fab0bee09a74253b647fd5fca0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_c2748484c6cdc6d5bf4269ad36036e3a39edbd0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_ec45c525c969da501657fae2f92092f17badccad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_ae2725ca8f741ff6b6649998a70245677fb2341a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_50a30c80544c90e73c435d4a1ebd3d674473bc55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_1e93633ea5b9e1c440047ba5e92803d8dafab710.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_c1d685c065378d87f587a705f3f7656645f1c2e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/error/AndroidStudioProjects/Box24SDK/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6b28d04e373abdc60125ffb3bcdb6f6afb6d7d7a.jar" />
+    </item>
+
+</items>
