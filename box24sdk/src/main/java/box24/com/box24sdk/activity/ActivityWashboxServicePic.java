@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 import box24.com.box24sdk.R;
-import box24.com.box24sdk.fragment.FragmentIntro;
+import box24.com.box24sdk.fragment.FragmentImage;
 import box24.com.box24sdk.model.ServiceItem;
 import box24.com.box24sdk.model.ServicePic;
 import box24.com.box24sdk.utils.JsonParserWashbox;
@@ -65,7 +65,7 @@ public class ActivityWashboxServicePic extends FragmentActivity {
                 final ViewPager mViewPager = (ViewPager) findViewById(R.id.pager);
                 final ArrayList<Fragment> listFrag = new ArrayList<Fragment>();
                 for (int i = 0; i < a.size(); i++) {
-                    FragmentIntro frag = new FragmentIntro();
+                    FragmentImage frag = new FragmentImage();
                     Bundle b = new Bundle();
                     b.putSerializable("model", a.get(i));
                     frag.setArguments(b);
