@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_dark"
+            android:drawableLeft="@drawable/appointments_pickupdelivery_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/Delivery"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/appointments_date_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="@string/RescheduleDate"
+                android:textColor="@color/grey_light"
+                android:textSize="@dimen/text_micro" />
+
+            <Spinner
+                android:id="@+id/tv_delivery_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/PleaseSelect"
+                android:padding="10dp"
+                android:textColor="@color/grey_light"
+                android:textSize="@dimen/text_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/appointments_time_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="@string/RescheduleTime"
+                android:textColor="@color/grey_light"
+                android:textSize="@dimen/text_micro" />
+
+            <Spinner
+                android:id="@+id/tv_delivery_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="time" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/Cancel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/OK"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small" />
+    </LinearLayout>
+</LinearLayout>

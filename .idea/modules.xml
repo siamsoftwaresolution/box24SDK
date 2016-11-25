@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Box24SDKGitHub.iml" filepath="$PROJECT_DIR$/Box24SDKGitHub.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/box24sdk/box24sdk.iml" filepath="$PROJECT_DIR$/box24sdk/box24sdk.iml" />
     </modules>
   </component>
 </project>
