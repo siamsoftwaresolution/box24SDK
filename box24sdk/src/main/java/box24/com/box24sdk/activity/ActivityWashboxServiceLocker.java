@@ -4,12 +4,15 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -18,6 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 import box24.com.box24sdk.R;
+import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.model.Locker;
 import box24.com.box24sdk.model.Result;
 import box24.com.box24sdk.utils.JsonParserWashbox;
@@ -41,6 +45,18 @@ public class ActivityWashboxServiceLocker extends Activity {
 //		tracking = getIntent().getBooleanExtra("tracking", false);
 		context = this;
 		listview = (ListView) findViewById(R.id.list);
+		LinearLayout layoutTitle = (LinearLayout) findViewById(R.id.layout_title);
+		if(Settings.ColorMain!=0){
+			layoutTitle.setBackgroundColor(Settings.ColorMain);
+		}
+		FrameLayout layoutHeader = (FrameLayout) findViewById(R.id.layout_header);
+
+		if (Settings.Header != 0) {
+			View view = LayoutInflater.from(this).inflate(Settings.Header, null);
+			layoutHeader.addView(view);
+
+		}
+
 		listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 			@Override
@@ -48,9 +64,9 @@ public class ActivityWashboxServiceLocker extends Activity {
 									long arg3) {
 				// TODO Auto-generated method stub
 
-				Intent in = new Intent(ActivityWashboxServiceLocker.this, ActivityWashboxTrackerDetail.class);
-				in.putExtra("id", adapter.getItem(arg2).service_id);
-//				in.putExtra("RequestID", adapter.getItem(arg2).RequestID);
+				Intent in = new Intent(context, ActivitySGWashboxDropQuickPin.class);
+				in.putExtra("promo", adapter.getItem(arg2).bar_bag);
+				in.putExtra("image",  adapter.getItem(arg2).QP_Pickup);
 				startActivity(in);
 
 			}
@@ -130,5 +146,8 @@ public class ActivityWashboxServiceLocker extends Activity {
 	protected void onResume() {
 		super.onResume();
 //		asyncJson();
+	}
+	public void back(View v){
+		finish();
 	}
 }

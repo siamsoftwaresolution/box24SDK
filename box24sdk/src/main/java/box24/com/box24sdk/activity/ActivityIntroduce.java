@@ -6,7 +6,10 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.CheckBox;
+import android.widget.FrameLayout;
 
 import com.viewpagerindicator.CirclePageIndicator;
 
@@ -14,17 +17,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 import box24.com.box24sdk.R;
-import box24.com.box24sdk.fragment.FragmentImage;
+import box24.com.box24sdk.Settings;
+import box24.com.box24sdk.fragment.FragmentIntro;
 import box24.com.box24sdk.utils.SPUtils;
 
 public class ActivityIntroduce extends FragmentActivity {
 
     int[] imageSG = {R.drawable.sign_up_sg, R.drawable.drop_off_sg, R.drawable.notify,
-            R.drawable.pick_up_sg, R.drawable.schedule_sg, 0};
+            R.drawable.pick_up_sg, R.drawable.schedule_sg};
     int[] des = {R.string.Intro1Detail, R.string.Intro2Detail,
-            R.string.Intro3Detail, R.string.Intro4Detail, R.string.Intro5Detail, 0};
+            R.string.Intro3Detail, R.string.Intro4Detail, R.string.Intro5Detail};
     int[] title = {R.string.Intro1Header, R.string.Intro2Header,
-            R.string.Intro3Header, R.string.Intro4Header, R.string.Intro5Header, 0};
+            R.string.Intro3Header, R.string.Intro4Header, R.string.Intro5Header};
 
     boolean isSetting = false;
     private ViewPager mViewPager;
@@ -37,13 +41,21 @@ public class ActivityIntroduce extends FragmentActivity {
 
         mViewPager = (ViewPager) findViewById(R.id.pager);
 
+        FrameLayout layoutHeader = (FrameLayout) findViewById(R.id.layout_header);
+        if (Settings.Header != 0) {
+            View view = LayoutInflater.from(this).inflate(Settings.Header, null);
+            layoutHeader.addView(view);
+
+        }
+
         final CirclePageIndicator indicate = (CirclePageIndicator) findViewById(R.id.indicator);
         checkBox = (CheckBox) findViewById(R.id.checkbox);
+        indicate.setFillColor(Settings.ColorAccent);
 
         final ArrayList<Fragment> listFrag = new ArrayList<Fragment>();
 
         for (int i = 0; i < imageSG.length; i++) {
-            FragmentImage frag = new FragmentImage();
+            FragmentIntro frag = new FragmentIntro();
 
             Bundle b = new Bundle();
             b.putInt("title", title[i]);

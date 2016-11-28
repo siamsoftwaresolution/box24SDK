@@ -7,7 +7,9 @@ package box24.com.box24sdk;
 public class Settings {
 
     public static  int Header = 0;
-    public static  int ColorButton = 0;
+    public static  int ColorMain = 0;
+    public static  int ColorAccent = 0;
+
     public static String PARAM_CUSTOMER_ID = "";
     public static String PARAM_PHONE = "";
     public static String PARAM_EMAIL = "";

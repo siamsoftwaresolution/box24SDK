@@ -6,37 +6,51 @@
     android:background="@color/white"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:onClick="back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/navbar_icon_arrowback" />
+
+        <box24.com.box24sdk.utils.CustomText
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/QuickPin"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
     <FrameLayout
         android:id="@+id/layout_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableLeft="@drawable/move_locker_icon"
-            android:drawablePadding="5dp"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="@string/LockerQuickPIN"
-            android:textColor="@color/grey_dark"
-            android:textSize="@dimen/text_large" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical">
-
+        <ImageView
+            android:id="@+id/image_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
         <TextView
             android:id="@+id/tv_quick"
             android:layout_width="match_parent"
@@ -53,6 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+
             android:gravity="center"
             android:padding="10dp"
             android:text="@string/PleasePressQ"
@@ -76,8 +91,9 @@
             android:id="@+id/btn_next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/red"
+            android:background="@drawable/bg_rec_stoke_pink"
             android:gravity="center"
+            android:layout_margin="10dp"
             android:padding="10dp"
             android:text="@string/OK"
             android:textColor="@color/white"

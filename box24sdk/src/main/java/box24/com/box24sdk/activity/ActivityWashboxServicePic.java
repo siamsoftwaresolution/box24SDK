@@ -43,7 +43,7 @@ public class ActivityWashboxServicePic extends FragmentActivity {
         ServiceItem BagItem = (ServiceItem) getIntent().getSerializableExtra(
                 "model");
 
-         serviceConnection = new ServiceConnection(this);
+        serviceConnection = new ServiceConnection(this);
 
         asyncJson(BagItem.service_id, BagItem.barcode);
 
@@ -57,7 +57,6 @@ public class ActivityWashboxServicePic extends FragmentActivity {
         serviceConnection.post(true, VariableWashbox.URL_WASHBOX_SERVICE_PIC, maps, new ServiceConnection.CallBackListener() {
             @Override
             public void callback(String result) {
-
 
 
                 List<ServicePic> a = JsonParserWashbox.parseServicePic(ActivityWashboxServicePic.this, result);
@@ -83,9 +82,7 @@ public class ActivityWashboxServicePic extends FragmentActivity {
         });
 
 
-
     }
-
 
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {

@@ -7,15 +7,16 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import box24.com.box24sdk.R;
 import box24.com.box24sdk.Settings;
+import box24.com.box24sdk.utils.SPUtils;
 
 //import com.pheonec.mobbox.washbox.tourguide.FrameLayoutWithHoleApp;
 
 public class ActivitySGWashboxMenu extends Activity {
-
 
 
     private Context context;
@@ -26,7 +27,10 @@ public class ActivitySGWashboxMenu extends Activity {
 
         blind();
 
-
+        if (!SPUtils.getBoolean(this, "checkBox")) {
+            Intent in = new Intent(this, ActivityIntroduce.class);
+            startActivity(in);
+        }
 
     }
 
@@ -34,11 +38,16 @@ public class ActivitySGWashboxMenu extends Activity {
         setContentView(R.layout.activity_sg_washbox_menu);
         context = this;
 
-        FrameLayout layoutHeader = (FrameLayout)findViewById(R.id.layout_header);
-        if(Settings.Header!=0){
+        FrameLayout layoutHeader = (FrameLayout) findViewById(R.id.layout_header);
+
+        if (Settings.Header != 0) {
             View view = LayoutInflater.from(this).inflate(Settings.Header, null);
             layoutHeader.addView(view);
 
+        }
+        LinearLayout layoutTitle = (LinearLayout) findViewById(R.id.layout_title);
+        if(Settings.ColorMain!=0){
+            layoutTitle.setBackgroundColor(Settings.ColorMain);
         }
 
         TextView btn_send = (TextView) findViewById(R.id.btn_send);
@@ -63,14 +72,16 @@ public class ActivitySGWashboxMenu extends Activity {
 
 
 
+
     }
 
-
+    public void onBack(View v){
+        finish();
+    }
 
     @Override
     protected void onResume() {
         super.onResume();
-
 
 
     }

@@ -6,26 +6,27 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <application
-    >
-        <activity android:name=".activity.ActivitySGWashboxMenu"
+    <application>
+        <activity
+            android:name=".activity.ActivitySGWashboxMenu"
             android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".activity.ActivitySGWashboxDrop"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.ActivitySGWashboxDropQuickPin"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.ActivityWashboxDialogDateTime"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.ActivityWashboxServiceLocker"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.ActivityWashboxServicePic"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.ActivityWashboxTrackerDetail"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.ActivityIntroduce"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ActivitySGWashboxDrop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivitySGWashboxDropQuickPin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityWashboxServiceLocker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityWashboxServicePic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityIntroduce"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

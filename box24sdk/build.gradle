@@ -1,3 +1,5 @@
+//apply plugin: 'com.android.application'
+
 apply plugin: 'com.android.library'
 
 ext {
@@ -8,12 +10,12 @@ ext {
     libraryName = 'box24sdk'
     artifact = 'box24sdk'
 
-    libraryDescription = 'A wrapper for Facebook Native Like Button (LikeView) on Android'
+    libraryDescription = 'Box24 library'
 
     siteUrl = 'https://github.com/siamsoftwaresolution/box24SDK'
     gitUrl = 'https://github.com/siamsoftwaresolution/box24SDK.git'
 
-    libraryVersion = '1.1'
+    libraryVersion = '1.5'
 
     developerId = 'manasit'
     developerName = 'manasit kittiyotthada'
@@ -33,7 +35,6 @@ android {
         versionCode 1
         versionName "1.0"
     }
-    publishNonDefault true
     buildTypes {
         release {
 //            minifyEnabled false
@@ -47,7 +48,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
     compile 'com.github.JakeWharton:ViewPagerIndicator:2.4.1@aar'
-
+    compile 'me.dm7.barcodescanner:zbar:1.9'
+    compile 'me.dm7.barcodescanner:zxing:1.9'
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'

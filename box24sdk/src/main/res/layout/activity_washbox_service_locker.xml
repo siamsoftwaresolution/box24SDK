@@ -3,34 +3,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical" >
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="back"
+            android:padding="10dp"
+            android:src="@drawable/navbar_icon_arrowback" />
+
+        <box24.com.box24sdk.utils.CustomText
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/Pickup"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
 
     <FrameLayout
         android:id="@+id/layout_header"
+        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_pickup"
-            android:drawablePadding="5dp"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="@string/ServiceLockerTitle"
-            android:textColor="@color/grey_dark"
-            android:textSize="@dimen/text_large" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
+            android:orientation="vertical">
 
 
             <LinearLayout
@@ -38,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/black_light"
                 android:orientation="horizontal"
-                android:padding="5dp" >
+                android:padding="5dp">
 
                 <ImageView
                     android:id="@+id/point"
@@ -83,11 +102,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="2"
-                    android:visibility="gone"
                     android:gravity="center"
                     android:text="@string/StartDate"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/text_small" />
+                    android:textSize="@dimen/text_small"
+                    android:visibility="gone" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -100,17 +119,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1" >
+                android:layout_weight="1">
 
                 <ListView
                     android:id="@+id/list"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-                </ListView>
+                    android:layout_height="match_parent"></ListView>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-
 
 
     <LinearLayout
@@ -118,7 +135,7 @@
         android:layout_height="wrap_content"
         android:background="@color/grey_dark"
         android:orientation="vertical"
-        android:padding="2dp" >
+        android:padding="2dp">
 
         <TextView
             android:layout_width="wrap_content"

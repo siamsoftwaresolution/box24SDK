@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -64,11 +66,17 @@ public class ActivitySGWashboxDrop extends Activity {
             }
         });
 
-        if (Settings.ColorButton != 0) {
-            btn_next.setTextColor(Settings.ColorButton);
+        LinearLayout layoutTitle = (LinearLayout) findViewById(R.id.layout_title);
+        if(Settings.ColorMain!=0){
+            layoutTitle.setBackgroundColor(Settings.ColorMain);
         }
+        FrameLayout layoutHeader = (FrameLayout) findViewById(R.id.layout_header);
 
+        if (Settings.Header != 0) {
+            View view = LayoutInflater.from(this).inflate(Settings.Header, null);
+            layoutHeader.addView(view);
 
+        }
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,5 +131,7 @@ public class ActivitySGWashboxDrop extends Activity {
         });
 
     }
-
+    public void back(View v){
+        finish();
+    }
 }
