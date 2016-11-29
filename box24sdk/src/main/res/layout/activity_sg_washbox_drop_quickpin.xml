@@ -13,10 +13,10 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:onClick="back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="back"
             android:padding="10dp"
             android:src="@drawable/navbar_icon_arrowback" />
 
@@ -25,9 +25,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:padding="10dp"
             android:gravity="center_vertical"
-            android:text="@string/QuickPin"
+            android:padding="10dp"
+            android:text="@string/QuickPinDropOff"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
@@ -37,67 +37,74 @@
     <FrameLayout
         android:id="@+id/layout_header"
         android:layout_width="match_parent"
+        android:layout_margin="10dp"
         android:layout_height="wrap_content" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_gravity="center"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="vertical">
-        <ImageView
-            android:id="@+id/image_barcode"
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp" />
-        <TextView
-            android:id="@+id/tv_quick"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:gravity="center"
-            android:padding="10dp"
-            android:singleLine="true"
-            android:textColor="@color/black"
-            android:textSize="@dimen/text_normal" />
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_barcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <box24.com.box24sdk.utils.CustomText
+                android:id="@+id/tv_quick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_large" />
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            <box24.com.box24sdk.utils.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
 
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="@string/PleasePressQ"
-            android:textColor="@color/black"
-            android:textSize="@dimen/text_normal" />
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/PleasePressQ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal" />
 
-        <ImageView
-            android:id="@+id/image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp" />
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/quick_pin_drop_off_icon"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
 
 
-        <TextView
-            android:id="@+id/btn_next"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rec_stoke_pink"
-            android:gravity="center"
-            android:layout_margin="10dp"
-            android:padding="10dp"
-            android:text="@string/OK"
-            android:textColor="@color/white"
-            android:textSize="@dimen/text_large" />
     </LinearLayout>
 
+    <box24.com.box24sdk.utils.CustomText
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_rec_stoke_pink"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/OK"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_large" />
 </LinearLayout>

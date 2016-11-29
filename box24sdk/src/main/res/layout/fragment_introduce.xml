@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <TextView
+    <box24.com.box24sdk.utils.CustomText
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:text=""
         android:textSize="@dimen/text_large" />
 
-    <TextView
+    <box24.com.box24sdk.utils.CustomText
         android:id="@+id/tv_des"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

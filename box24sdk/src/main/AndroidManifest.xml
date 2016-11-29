@@ -8,24 +8,24 @@
 
     <application>
         <activity
-            android:name=".activity.ActivitySGWashboxMenu"
+            android:name=".activity.ActivityBox24Menu"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".activity.ActivitySGWashboxDrop"
+            android:name=".activity.ActivityBox24Drop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ActivitySGWashboxDropQuickPin"
+            android:name=".activity.ActivityBox24DropQuickPin"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ActivityWashboxServiceLocker"
+            android:name=".activity.ActivityBox24Locker"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ActivityWashboxServicePic"
+            android:name=".activity.ActivityBox24Pic"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ActivityIntroduce"
+            android:name=".activity.ActivityBox24Introduce"
             android:screenOrientation="portrait" />
     </application>
 

@@ -10,9 +10,9 @@
     <string name="Intro4Header">Pick Up</string>
     <string name="Intro5Header">Schedule</string>
     <string name="Intro1Detail">Log on to www.washbox24.com or downloadBox24 app (iPhone and Android) to get your self signed up</string>
-    <string name="Intro2Detail">Drop your items off anytime 24/7 at the locker</string>
+    <string name="Intro2Detail">Drop your items off anytime 24/7 at the locker using Quick Pin or your mobile number</string>
     <string name="Intro3Detail">Get notified by App, SMS, and/or E-mail right to your phone</string>
-    <string name="Intro4Detail">Drop your items off anytime 24/7 at the locker</string>
+    <string name="Intro4Detail">Pick your items up anytime 24/7 at the locker using Quick Pin</string>
     <string name="Intro5Detail">Standard turn-around time is 4 working days (e.g. drop off on Monday (before 10 AM), pick up on Friday *Terms and conditions applied</string>
     <string name="Email">Email</string>
     <string name="Password">Password</string>
@@ -563,8 +563,12 @@
 
     <string name="ShopBpc">฿/pc</string>
     <string name="Normal">Normal</string>
+    <string name="Regular">Regular</string>
     <string name="Express">Express</string>
     <string name="Feedback">Feedback</string>
+
+    <string name="QuickPinDropOff">Quick Pin (Drop Off)</string>
+    <string name="QuickPinPickUp">Quick Pin (Pick Up)</string>
 
     <string name="express_sg">Get your laundry back in just 2 working days\n* Additional 50% surcharge</string>
     <string name="normal_sg">4 working days turn-around time</string>

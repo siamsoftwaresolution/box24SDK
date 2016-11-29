@@ -5,7 +5,21 @@
         <item name="android:windowFrame">@null</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsFloating">true</item>
-        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowContentOverlay">@null</item>close_icon.png
+        express_btn_active.png
+        express_btn.png
+        intro_locker_btn.png
+        intro_receive_btn.png
+        intro_send_btn.png
+        normal_btn_active.png
+        normal_btn.png
+        quick_pin_drop_off_icon.png
+        schedule_india.png
+        actionbar_logowashbox_india.png
+        notify_india.png
+        drop_off_india.png
+        pick_up_india.png
+        menu_locker_btn.png
         <item name="android:windowTitleStyle">@null</item>
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>

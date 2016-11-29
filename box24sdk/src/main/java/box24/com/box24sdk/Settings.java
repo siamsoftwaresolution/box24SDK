@@ -10,7 +10,7 @@ public class Settings {
     public static  int ColorMain = 0;
     public static  int ColorAccent = 0;
 
-    public static String PARAM_CUSTOMER_ID = "";
     public static String PARAM_PHONE = "";
-    public static String PARAM_EMAIL = "";
+    public static String PARAM_ADDRESS = "";
+    public static String PARAM_REGION_ID = "";
 }

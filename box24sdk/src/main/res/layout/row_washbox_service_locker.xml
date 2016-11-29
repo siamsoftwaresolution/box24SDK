@@ -17,7 +17,7 @@
             android:layout_gravity="center"
             android:src="@drawable/point_blue" />
 
-        <TextView
+        <box24.com.box24sdk.utils.CustomText
             android:id="@+id/tv_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:textColor="@color/grey_dark"
             android:textSize="@dimen/text_normal" />
 
-        <TextView
+        <box24.com.box24sdk.utils.CustomText
             android:id="@+id/tv_id"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             android:textSize="@dimen/text_normal" />
 
 
-        <TextView
+        <box24.com.box24sdk.utils.CustomText
             android:id="@+id/tv_quick"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             android:textColor="@color/grey_dark"
             android:textSize="@dimen/text_normal" />
 
-        <TextView
+        <box24.com.box24sdk.utils.CustomText
             android:id="@+id/tv_date"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
