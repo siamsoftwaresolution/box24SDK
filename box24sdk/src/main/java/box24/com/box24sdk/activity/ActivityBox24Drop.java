@@ -67,7 +67,7 @@ public class ActivityBox24Drop extends Activity {
         });
 
         LinearLayout layoutTitle = (LinearLayout) findViewById(R.id.layout_title);
-        if(Settings.ColorMain!=0){
+        if (Settings.ColorMain != 0) {
             layoutTitle.setBackgroundColor(Settings.ColorMain);
         }
         FrameLayout layoutHeader = (FrameLayout) findViewById(R.id.layout_header);
@@ -89,6 +89,16 @@ public class ActivityBox24Drop extends Activity {
 
                 Map<String, Object> maps = new HashMap<String, Object>();
                 maps.put("PromotionCode", edt_promo_code.getText().toString());
+                maps.put("ContactMobile", Settings.PARAM_PHONE);
+                maps.put("ContactName", Settings.PARAM_NAME);
+                maps.put("ContactEmail", Settings.PARAM_EMAIL);
+                maps.put("PlayerID", Settings.PARAM_PLAYER_ID);
+                if (btn_send.isActivated()) {
+                    maps.put("QuickPinType", "R");
+                } else {
+                    maps.put("QuickPinType", "E");
+                }
+
 
                 serviceConnection.post(true, VariableWashbox.URL_WASHBOX_QUICKPIN, maps, new ServiceConnection.CallBackListener() {
                     @Override
@@ -108,7 +118,7 @@ public class ActivityBox24Drop extends Activity {
                             a = json.getJSONObject("data")
                                     .getString("QuickPin");
                             b = json.getJSONObject("data")
-                                    .getString("QuickPin_Image");
+                                    .getString("Description");
 
                             Intent in = new Intent(context, ActivityBox24DropQuickPin.class);
                             in.putExtra("promo", a);
@@ -131,7 +141,8 @@ public class ActivityBox24Drop extends Activity {
         });
 
     }
-    public void back(View v){
+
+    public void back(View v) {
         finish();
     }
 }

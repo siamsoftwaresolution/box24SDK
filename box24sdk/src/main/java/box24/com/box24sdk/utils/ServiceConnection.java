@@ -26,6 +26,7 @@ import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
+import box24.com.box24sdk.Settings;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
@@ -226,11 +227,11 @@ public class ServiceConnection {
 //            // do stuff
 //            formBody.add(key,value);
 //        }
-        params.put("customer_id", UtilsApp.CUSTOMERID);
-        params.put("secretToken", UtilsApp.SECRETTOKEN);
-        params.put("LanguageID","");
-        params.put("CountryID", 2);
-        params.put("platform", 2);
+        params.put("customer_id", Settings.PARAM_PHONE);
+        params.put("secretToken", "1");
+        params.put("LanguageID","1");
+        params.put("CountryID", 3);
+
         final MultipartBody.Builder builder = new MultipartBody.Builder()
                 .setType(MultipartBody.FORM);
 

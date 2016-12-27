@@ -24,7 +24,7 @@ import box24.com.box24sdk.utils.SPUtils;
 
 public class ActivityBox24Introduce extends FragmentActivity {
 
-    int[] imageSG = {R.drawable.drop_off_sg, R.drawable.notify_india,
+    int[] imageSG = {R.drawable.drop_off_india, R.drawable.notify_india,
             R.drawable.pick_up_india, R.drawable.schedule_india};
     int[] des = {R.string.Intro2Detail,
             R.string.Intro3Detail, R.string.Intro4Detail, R.string.Intro5Detail};

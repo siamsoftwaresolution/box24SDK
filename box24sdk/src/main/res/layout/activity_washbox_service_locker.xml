@@ -26,7 +26,7 @@
             android:layout_gravity="center"
             android:gravity="center_vertical"
             android:padding="10dp"
-            android:text="@string/Pickup"
+            android:text="@string/Delivery"
             android:textColor="@color/white"
             android:textSize="22sp" />
 

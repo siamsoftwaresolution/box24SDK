@@ -10,34 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6736d0-2483-4ad1-a58a-0009e2d92fb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/actionbar_logowashbox_india.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/drop_off_india.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/menu_locker_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/notify_india.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/pick_up_india.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/quick_pin_drop_off_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/schedule_india.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/actionbar_logowashbox_sg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/appointments_checkout_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/appointments_date_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/appointments_delivery_note_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/appointments_deliverynotes_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/appointments_location_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/appointments_pickupdelivery_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/appointments_time_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/notify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/pick_up_sg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/schedule_sg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_shopbox_tracker_detail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_tracker_detail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/dialog_date_time.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_time.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityIntroduce.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivitySGWashboxDrop.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivitySGWashboxDropQuickPin.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivitySGWashboxMenu.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Menu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityWashboxServiceLocker.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityWashboxServicePic.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Pic.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Pic.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -46,30 +19,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_box24sdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_box24sdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_box24sdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_box24sdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_box24sdk_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_box24sdk_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/close_icon.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/close_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/express_btn.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/express_btn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/express_btn_active.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/express_btn_active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/intro_locker_btn.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/intro_locker_btn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/intro_receive_btn.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/intro_receive_btn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/intro_send_btn.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/intro_send_btn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/normal_btn.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/normal_btn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/normal_btn_active.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/normal_btn_active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/drop_off_india.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/drop_off_india.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/box24sdk.iml" afterPath="$PROJECT_DIR$/box24sdk/box24sdk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/build.gradle" afterPath="$PROJECT_DIR$/box24sdk/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/bg_rec_stoke_red.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/bg_rec_stoke_red.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/ServiceConnection.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/ServiceConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableWashbox.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableWashbox.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_introduce.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_introduce.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_service_item.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_service_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/values/styles.xml" />
     </list>
     <ignored path="Box24SDKGitHub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,93 +106,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ActivityBox24Introduce.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-              <folding>
-                <element signature="e#934#955#0" expanded="true" />
-                <element signature="e#2706#2851#0" expanded="true" />
-                <element signature="e#2850#2851#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_introduce.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ActivityBox24DropQuickPin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+            <state relative-caret-position="78">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityBox24Drop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1092">
+              <caret line="107" column="46" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+              <folding>
+                <element signature="e#5024#5025#0" expanded="true" />
+                <element signature="e#5048#5049#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_sg_washbox_drop_quickpin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
-              <folding>
-                <element signature="e#2647#2666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg_rec_stoke_red.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/bg_rec_stoke_red.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="1001">
+              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml">
+      <file leaf-file-name="ActivityBox24Locker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="598">
+              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityBox24Drop.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java">
+      <file leaf-file-name="JsonParserWashbox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="90" column="79" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
+            <state relative-caret-position="4290">
+              <caret line="344" column="67" selection-start-line="344" selection-start-column="67" selection-end-line="344" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Locker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/ServiceConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2574">
+              <caret line="230" column="39" selection-start-line="230" selection-start-column="39" selection-end-line="230" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -234,20 +195,20 @@
       <file leaf-file-name="VariableWashbox.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableWashbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="33" column="89" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="89" />
+            <state relative-caret-position="143">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="91">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
-                <marker date="1480418704000" expanded="true" signature="1467:1642" ph="..." />
+                <marker date="1480499980000" expanded="true" signature="1467:1642" ph="..." />
               </folding>
             </state>
           </provider>
@@ -264,6 +225,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1731,7 +1695,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4440725222000" />
+        <entry key="$PROJECT_DIR$" value="4440806498000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2209,20 +2173,28 @@
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivitySGWashboxDropQuickPin.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Menu.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_introduce.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_service_item.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/drawable/bg_rec_stoke_red.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Pic.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableWashbox.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/ServiceConnection.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
         <option value="$PROJECT_DIR$/box24sdk/build.gradle" />
       </list>
     </option>
@@ -2257,12 +2229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2493,6 +2459,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Box24SDKGitHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Box24SDKGitHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box24sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box24sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fragment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2533,6 +2533,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2926,6 +2932,14 @@
       <option name="presentableId" value="Default" />
       <updated>1479976943405</updated>
     </task>
+    <task id="LOCAL-00001" summary="rename">
+      <created>1480422651046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480422651047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2939,7 +2953,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="831" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2956,14 +2970,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31402004" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28397712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2974,10 +2986,16 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2986,71 +3004,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityWashboxTrackerDetail.java" />
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_tracker_detail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="399" column="60" selection-start-line="399" selection-start-column="60" selection-end-line="399" selection-end-column="60" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="435" column="57" selection-start-line="435" selection-start-column="57" selection-end-line="435" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Pic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_tracker_detail.xml" />
     <entry file="file://$PROJECT_DIR$/maven.gradle" />
     <entry file="file://$PROJECT_DIR$/bintray.gradle" />
     <entry file="file://$PROJECT_DIR$/install.gradle" />
@@ -3098,9 +3053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3108,9 +3060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3130,62 +3079,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_shopbox_tracker_detail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_shopbox_tracker_detail.xml" />
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
-          <folding>
-            <element signature="e#3623#3647#0" expanded="false" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3236,23 +3153,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_time.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_time.xml" />
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_service_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
-            <element signature="e#1129#1148#0" expanded="true" />
+            <element signature="e#1129#1148#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3260,40 +3167,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="e#3075#3092#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/actionbar_logowashbox_sg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/actionbar_logowashbox_sg.png" />
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -3323,50 +3197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
-          <folding>
-            <element signature="e#2647#2666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-          <folding>
-            <element signature="e#934#955#0" expanded="true" />
-            <element signature="e#2706#2851#0" expanded="true" />
-            <element signature="e#2850#2851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -3383,37 +3213,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="91">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/drop_off_sg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="570" column="26" selection-start-line="570" selection-start-column="26" selection-end-line="570" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding>
-            <marker date="1480418704000" expanded="true" signature="1467:1642" ph="..." />
+            <element signature="e#1092#1110#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="37" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1001">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+        <state relative-caret-position="78">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Pic.java" />
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="107" column="46" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+          <folding>
+            <element signature="e#5024#5025#0" expanded="true" />
+            <element signature="e#5048#5049#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableWashbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="33" column="89" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="89" />
+        <state relative-caret-position="143">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java">
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="90" column="79" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
+        <state relative-caret-position="234">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4290">
+          <caret line="344" column="67" selection-start-line="344" selection-start-column="67" selection-end-line="344" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/ServiceConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2574">
+          <caret line="230" column="39" selection-start-line="230" selection-start-column="39" selection-end-line="230" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <marker date="1480499980000" expanded="true" signature="1467:1642" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

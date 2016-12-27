@@ -19,6 +19,5 @@ public class Locker implements Serializable {
     public String service_id;
     public String bar_bag;
     public String statusNumber;
-    public String statusStr;
-   
+    public String Des;
 }

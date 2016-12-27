@@ -66,7 +66,8 @@ public class ActivityBox24Locker extends Activity {
 
 				Intent in = new Intent(context, ActivityBox24DropQuickPin.class);
 				in.putExtra("promo", adapter.getItem(arg2).QP_Pickup);
-				in.putExtra("image",  adapter.getItem(arg2).QP_Pickup);
+				in.putExtra("image",  adapter.getItem(arg2).Des);
+				in.putExtra("page", 1);
 				startActivity(in);
 
 			}

@@ -13,4 +13,7 @@ public class Settings {
     public static String PARAM_PHONE = "";
     public static String PARAM_ADDRESS = "";
     public static String PARAM_REGION_ID = "";
+    public static String PARAM_PLAYER_ID = "";
+    public static String PARAM_NAME = "";
+    public static String PARAM_EMAIL = "";
 }

@@ -50,7 +50,8 @@ public class ActivityBox24DropQuickPin extends Activity {
 
 //        ImageView imageView = (ImageView) findViewById(R.id.image);
         ImageView imageBarcode = (ImageView) findViewById(R.id.image_barcode);
-
+        TextView tvDes = (TextView)findViewById(R.id.tv_des);
+        tvDes.setText(image);
         Bitmap bitmap = null;
         try {
             bitmap = encodeAsBitmap(promo.replace("-",""), BarcodeFormat.CODE_128, 1000, 200);

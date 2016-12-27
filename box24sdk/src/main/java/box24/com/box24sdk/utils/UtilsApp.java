@@ -34,8 +34,8 @@ import box24.com.box24sdk.R;
 
 public class UtilsApp {
 
-    public static final String CUSTOMERID="13721";
-    public static final String SECRETTOKEN="4E87AD58-2BFD-8629-5E87-8B0B40249195";
+//    public static final String CUSTOMERID="13721";
+//    public static final String SECRETTOKEN="4E87AD58-2BFD-8629-5E87-8B0B40249195";
 
 
     public static void setSelectorCruve(View v, int def, int ac) {

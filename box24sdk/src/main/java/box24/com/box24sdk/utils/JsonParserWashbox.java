@@ -343,7 +343,7 @@ public class JsonParserWashbox {
                 re.LocaEn = jarray.getString("LocaEn");
                 re.LockID = jarray.getString("LockID");
                 re.statusNumber = jarray.getString("statusNumber");
-                re.statusStr = jarray.getString("statusStr");
+                re.Des = jarray.getString("Description");
                 try {
                     re.service_id = jarray.getString("service_id");
                 } catch (Exception e) {
