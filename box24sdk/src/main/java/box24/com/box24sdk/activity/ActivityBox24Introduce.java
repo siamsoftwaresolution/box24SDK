@@ -80,15 +80,13 @@ public class ActivityBox24Introduce extends FragmentActivity {
 
     }
 
-    @Override
-    public void onBackPressed() {
 
+    @Override
+    protected void onPause() {
+        super.onPause();
         if (checkBox.isChecked()) {
             SPUtils.set(this, "checkBox", true);
         }
-
-        super.onBackPressed();
-
     }
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
