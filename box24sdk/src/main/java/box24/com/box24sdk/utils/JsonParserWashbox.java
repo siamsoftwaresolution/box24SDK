@@ -8,6 +8,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import box24.com.box24sdk.model.LocationBox24;
 import box24.com.box24sdk.model.Locker;
 import box24.com.box24sdk.model.PeriodTime;
 import box24.com.box24sdk.model.PickUpDate;
@@ -155,8 +156,6 @@ public class JsonParserWashbox {
     }
 
 
-
-
     public static List<ServiceBag> parseServiceBag(Context c, JSONObject json) {
         List<ServiceBag> list = new ArrayList<ServiceBag>();
         try {
@@ -207,7 +206,6 @@ public class JsonParserWashbox {
         }
         return list;
     }
-
 
 
     public static ServiceBag parseServiceBag2(String aaa) {
@@ -392,10 +390,10 @@ public class JsonParserWashbox {
         return null;
     }
 
-    public static List<ServiceItem> parseServiceItem( String aaa) {
+    public static List<ServiceItem> parseServiceItem(String aaa) {
         List<ServiceItem> list = new ArrayList<ServiceItem>();
         try {
-            JSONObject json  = new JSONObject(aaa);
+            JSONObject json = new JSONObject(aaa);
             JSONObject n = json.getJSONObject("data");
             JSONArray j = n.getJSONArray("item");
             for (int i = 0; i < j.length(); i++) {
@@ -423,7 +421,7 @@ public class JsonParserWashbox {
     public static List<ServicePic> parseServicePic(Context c, String aaa) {
         List<ServicePic> list = new ArrayList<ServicePic>();
         try {
-             JSONObject json = new  JSONObject(aaa);
+            JSONObject json = new JSONObject(aaa);
             JSONArray j = json.getJSONArray("data");
             for (int i = 0; i < j.length(); i++) {
                 JSONObject jarray = j.getJSONObject(i);
@@ -445,7 +443,6 @@ public class JsonParserWashbox {
         }
         return list;
     }
-
 
 
     public static List<PeriodTime> parsePeriodTime(String aaa) {
@@ -491,7 +488,6 @@ public class JsonParserWashbox {
     }
 
 
-
     public static boolean parseCredits(Context c, JSONObject json) {
         try {
 
@@ -519,5 +515,61 @@ public class JsonParserWashbox {
             e.printStackTrace();
             return "";
         }
+    }
+
+    public static List<LocationBox24> parseMap(String aa) {
+        List<LocationBox24> list = new ArrayList<LocationBox24>();
+        try {
+            JSONObject json = new JSONObject(aa);
+            JSONArray j = json.getJSONArray("data");
+            for (int i = 0; i < j.length(); i++) {
+                JSONObject jarray = j.getJSONObject(i);
+//                if (!jarray.getString("latitude").equals("null") && !jarray.getString("longitude").equals("null")) {
+                LocationBox24 re = new LocationBox24();
+                if (!jarray.getString("latitude").isEmpty()) {
+                    re.latitude = Double.parseDouble(jarray.getString("latitude"));
+                    re.longitude = Double
+                            .parseDouble(jarray.getString("longitude"));
+                } else {
+                    re.latitude = 0;
+                    re.longitude = 0;
+                }
+
+                re.location_address_for_api_use = jarray
+                        .getString("location_address_for_api_use");
+                re.location_condo_name_for_api_use = jarray
+                        .getString("location_condo_name_for_api_use");
+                re.location_name_for_api_use = jarray
+                        .getString("location_name_for_api_use");
+                re.location_tel_for_api_use = jarray
+                        .getString("location_tel_for_api_use").replaceAll("\\.", "-").replace("null", "");
+                re.location_id = jarray
+                        .getString("location_id");
+                re.location_image = jarray
+                        .getString("location_image");
+                try {
+                    re.fav = jarray.getInt("isFavorite");
+                } catch (Exception e) {
+                    re.fav = 0;
+                }
+                try {
+                    re.location_avilable_locker = jarray
+                            .getString("location_avilable_locker");
+                    re.location_avilable_status = jarray
+                            .getString("location_avilable_status");
+                } catch (Exception e) {
+
+                }
+
+                list.add(re);
+//                }
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        }
+        return list;
     }
 }

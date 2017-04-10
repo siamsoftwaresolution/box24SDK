@@ -15,7 +15,7 @@ ext {
     siteUrl = 'https://github.com/siamsoftwaresolution/box24SDK'
     gitUrl = 'https://github.com/siamsoftwaresolution/box24SDK.git'
 
-    libraryVersion = '2.7'
+    libraryVersion = '2.9'
 
     developerId = 'manasit'
     developerName = 'manasit kittiyotthada'
@@ -44,6 +44,7 @@ android {
 }
 
 dependencies {
+    compile 'com.google.android.gms:play-services:10.0.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'

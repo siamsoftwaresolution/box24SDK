@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -33,11 +32,14 @@ public class ActivityBox24Drop extends Activity {
 
     private Context context;
     private ServiceConnection serviceConnection;
+    String promo = "";
+    String locationID = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        promo = getIntent().getStringExtra("promo");
+        locationID = getIntent().getStringExtra("locationID");
         serviceConnection = new ServiceConnection(this);
         blind();
     }
@@ -49,7 +51,7 @@ public class ActivityBox24Drop extends Activity {
         final LinearLayout btn_send = (LinearLayout) findViewById(R.id.btn_normal);
         final LinearLayout btn_receive = (LinearLayout) findViewById(R.id.btn_express);
         TextView btn_next = (TextView) findViewById(R.id.btn_next);
-        final EditText edt_promo_code = (EditText) findViewById(R.id.edt_promo_code);
+//        final EditText edt_promo_code = (EditText) findViewById(R.id.edt_promo_code);
         btn_send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +90,7 @@ public class ActivityBox24Drop extends Activity {
 
 
                 Map<String, Object> maps = new HashMap<String, Object>();
-                maps.put("PromotionCode", edt_promo_code.getText().toString());
+                maps.put("PromotionCode", promo);
                 maps.put("ContactMobile", Settings.PARAM_PHONE);
                 maps.put("ContactName", Settings.PARAM_NAME);
                 maps.put("ContactEmail", Settings.PARAM_EMAIL);

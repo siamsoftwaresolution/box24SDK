@@ -61,7 +61,7 @@ public class ActivityBox24Menu extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(context,
-                        ActivityBox24Drop.class));
+                        ActivityBox24Location.class));
 
             }
         });
