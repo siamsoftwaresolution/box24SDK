@@ -19,11 +19,11 @@
             android:name=".activity.ActivityBox24Menu"
             android:screenOrientation="portrait">
 
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity
             android:name=".activity.ActivityBox24Drop"
@@ -35,8 +35,9 @@
             android:name=".activity.ActivityBox24Locker"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ActivityBox24Pic"
+            android:name=".activity.ActivityBox24Laundry"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activity.ActivityBox24Introduce"
             android:screenOrientation="portrait" />
@@ -57,7 +58,6 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/. 
         -->
-
 
 
     </application>

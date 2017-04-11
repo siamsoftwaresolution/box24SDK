@@ -62,7 +62,8 @@
                 android:hint="@string/PromotionCode"
                 android:padding="10dp"
                 android:singleLine="true"
-                android:textColor="@color/red"
+                android:textColorHint="@color/grey_light"
+                android:textColor="@color/pink"
                 android:textSize="@dimen/text_normal" />
 
             <box24.com.box24sdk.utils.CustomText
@@ -71,6 +72,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:layout_marginTop="10dp"
+                android:textColorHint="@color/grey_light"
                 android:background="@drawable/bg_rec_stoke_grey"
                 android:drawableRight="@drawable/search_ic"
                 android:hint="@string/Locker"

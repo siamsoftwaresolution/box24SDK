@@ -34,12 +34,13 @@ public class ActivityBox24Drop extends Activity {
     private ServiceConnection serviceConnection;
     String promo = "";
     String locationID = "";
-
+String laundry = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         promo = getIntent().getStringExtra("promo");
         locationID = getIntent().getStringExtra("locationID");
+        laundry = getIntent().getStringExtra("laundry");
         serviceConnection = new ServiceConnection(this);
         blind();
     }
@@ -95,6 +96,8 @@ public class ActivityBox24Drop extends Activity {
                 maps.put("ContactName", Settings.PARAM_NAME);
                 maps.put("ContactEmail", Settings.PARAM_EMAIL);
                 maps.put("PlayerID", Settings.PARAM_PLAYER_ID);
+                maps.put("location_id", locationID);
+                maps.put("WashingType", laundry);
                 if (btn_send.isActivated()) {
                     maps.put("QuickPinType", "R");
                 } else {

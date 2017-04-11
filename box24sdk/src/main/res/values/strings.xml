@@ -150,6 +150,7 @@
     <string name="BranchDetail">Branch Detail</string>
     <string name="DryCleaning">Dry Cleaning</string>
     <string name="Laundry">Laundry</string>
+    <string name="LaundryDryCleaning">Laundry &amp; Dry Cleaning</string>
     <string name="BagAndShoesSpa">Bag &amp; Shoes Spa</string>
     <string name="PackageDelivery">Package Delivery</string>
     <string name="PriceItemsHeader">Items</string>
@@ -373,7 +374,7 @@
     <string name="PleaseFillUpSenderName">Please fill up sender\'s name</string>
     <string name="PleaseFillUpSenderAddress">Please fill up sender\'s address</string>
     <string name="PleaseFillUpSenderMobile">Please fill up sender\'s mobile 10 digits</string>
-    <string name="Pleaseselectmodeofservice">Please select mode of service</string>
+    <string name="Pleaseselectmodeofservice">Please select the type of service</string>
 
     <string name="FavoritePerson">Favorite</string>
     <string name="ConfirmTerminalAddress">Confirm Terminal Address</string>
@@ -585,4 +586,6 @@
     <string name="RecipientEmail">Recipient\'s Email</string>
     <string name="PleaseSelectTurn">Please select turnaround time</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="note">Please note: In case of Laundry and Dry Cleaning, please keep the clothes for Laundry and Dry Cleaning in separate bags and please enclose a note for the kind of service</string>
 </resources>

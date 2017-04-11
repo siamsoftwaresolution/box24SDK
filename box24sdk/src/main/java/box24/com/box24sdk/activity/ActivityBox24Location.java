@@ -88,7 +88,7 @@ public class ActivityBox24Location extends Activity {
                 if (locationBox24 == null || locationBox24.location_id == null) {
                     return;
                 }
-                Intent in = new Intent(context, ActivityBox24Drop.class);
+                Intent in = new Intent(context, ActivityBox24Laundry.class);
                 in.putExtra("locationID", locationBox24.location_id);
                 in.putExtra("promo", edt_promo_code.getText().toString());
                 startActivity(in);
