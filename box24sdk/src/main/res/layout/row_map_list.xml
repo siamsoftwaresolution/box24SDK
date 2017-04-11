@@ -25,10 +25,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/pin_ic"
+            android:drawableLeft="@drawable/pin_icon"
             android:drawablePadding="5dp"
             android:gravity="center_vertical"
             android:text="title"
+            android:textColor="@color/pink"
             android:textSize="@dimen/text_large" />
 
         <box24.com.box24sdk.utils.CustomText

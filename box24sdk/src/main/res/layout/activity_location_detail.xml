@@ -5,30 +5,17 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/layout_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:onClick="back"
-            android:padding="10dp"
-            android:src="@drawable/navbar_icon_arrowback" />
-
-
-    </LinearLayout>
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/layout_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -49,7 +36,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:padding="10dp"
-                android:text="@string/DropOffIcon"
+                android:text="@string/Location"
                 android:textColor="@color/white"
                 android:textSize="22sp" />
 
@@ -106,15 +93,15 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
-                          <!--  <ImageView
+                            <ImageView
                                 android:id="@+id/pin"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/move_pin_icon" />-->
+                                android:src="@drawable/pin_icon" />
 
 
-                            <com.pheonec.mobbox.utils.TextViewSukumvit
+                            <box24.com.box24sdk.utils.CustomText
                                 android:id="@+id/tv_name"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -123,11 +110,11 @@
 
                                 android:gravity="center_vertical"
                                 android:text="title"
-                                android:textColor="@color/orange"
+                                android:textColor="@color/pink"
                                 android:textSize="@dimen/text_large" />
                         </LinearLayout>
 
-                        <com.pheonec.mobbox.utils.TextViewSukumvit
+                        <box24.com.box24sdk.utils.CustomText
                             android:id="@+id/tv_des"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -136,7 +123,7 @@
                             android:text="title"
                             android:textSize="@dimen/text_normal" />
 
-                        <com.pheonec.mobbox.utils.TextViewSukumvit
+                        <box24.com.box24sdk.utils.CustomText
                             android:id="@+id/tv_phone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -146,7 +133,7 @@
                             android:text="title"
                             android:textSize="@dimen/text_normal" />
 
-                        <com.pheonec.mobbox.utils.TextViewSukumvit
+                        <box24.com.box24sdk.utils.CustomText
                             android:id="@+id/tv_locker"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -154,20 +141,20 @@
                             android:layout_marginTop="20dp"
                             android:gravity="center_vertical"
                             android:text="title"
-                            android:textColor="@color/red"
+                            android:textColor="@color/pink"
                             android:textSize="@dimen/text_normal" />
                     </LinearLayout>
                 </LinearLayout>
 
-                <com.pheonec.mobbox.utils.TextViewSukumvit
+                <box24.com.box24sdk.utils.CustomText
                     android:id="@+id/tv_send"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="@color/orange"
+                    android:background="@color/pink"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Send"
+                    android:text="@string/Confirm"
                     android:textColor="@color/white"
                     android:textSize="@dimen/text_large" />
             </LinearLayout>

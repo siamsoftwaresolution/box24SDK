@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 import box24.com.box24sdk.R;
+import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.activity.ActivityLocation;
 import box24.com.box24sdk.activity.ActivityLocationDetail;
 import box24.com.box24sdk.model.LocationBox24;
@@ -107,16 +108,18 @@ public class FragmentLocationFavorite extends Fragment {
 //	}
 
     public void asyncJson(String keyword) {
-        adapter.clear();
+
         // String url = String.format(Variable.URL_WASHBOX_INFO_MAP, keyword);
         Map<String, Object> param = new HashMap<String, Object>();
         param.put("keyword", keyword);
         param.put("isFavorite", 1);
+        param.put("ContactMobile", Settings.PARAM_PHONE);
 //		param.put("LanguageID", UtilsApp.getLanguageID(getActivity()));
 
         serviceConnection.post(true, VariableWashbox.URL_WASHBOX_LOCATION_FAV, param, new ServiceConnection.CallBackListener() {
             @Override
             public void callback(String result) {
+                adapter.clear();
                 listLocationBox24 = JsonParserWashbox.parseMap(result);
                 adapter.addAll(listLocationBox24);
 

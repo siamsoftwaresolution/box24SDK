@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="zbar-1.9">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/box24sdk/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.9/jars/libs/zbar.jar!/" />
-      <root url="file://$PROJECT_DIR$/box24sdk/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.9/res" />
-      <root url="jar://$PROJECT_DIR$/box24sdk/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/d4a3c6b676ce7a828acb43b98d66f2f72ae3ca0a/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d4a3c6b676ce7a828acb43b98d66f2f72ae3ca0a/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d4a3c6b676ce7a828acb43b98d66f2f72ae3ca0a/output/jars/libs/zbar.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

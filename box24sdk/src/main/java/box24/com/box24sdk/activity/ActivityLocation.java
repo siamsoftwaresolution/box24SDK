@@ -19,6 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import box24.com.box24sdk.R;
+import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.fragment.FragmentLocationFavorite;
 import box24.com.box24sdk.fragment.FragmentLocationList;
 import box24.com.box24sdk.fragment.FragmentLocationMap;
@@ -53,6 +54,7 @@ public class ActivityLocation extends FragmentActivity {
     }
 
     Context context;
+    boolean isFav = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +66,14 @@ public class ActivityLocation extends FragmentActivity {
         context = this;
         // Variable.ListLocation.clear();
         int locker = getIntent().getIntExtra("locker", 0);
+        isFav = getIntent().getBooleanExtra("isFav", false);
+
+        LinearLayout layoutTitle = (LinearLayout) findViewById(R.id.layout_title);
+        if (Settings.ColorMain != 0) {
+            layoutTitle.setBackgroundColor(Settings.ColorMain);
+        }
+
+
         SEARCH = "";
         // mPager = (ViewPager) findViewById(R.id.pager);
         // mPager.requestTransparentRegion(mPager);
@@ -177,18 +187,17 @@ public class ActivityLocation extends FragmentActivity {
         });
 
 
-//        if (!UtilsApp.isFav()) {
-//            UtilsApp.alerDialog(this, getString(R.string.SelectLocation));
-//            def();
-//            aq.id(R.id.line1).visible();
-//            replaceFragment(fragmentList);
-//            possition = 1;
-//        } else {
-//            def();
-//            aq.id(R.id.line0).visible();
-//            replaceFragment(fragmentFav);
-//            possition = 0;
-//        }
+        if (!isFav) {
+            def();
+            line2A.setVisibility(View.VISIBLE);
+            replaceFragment(fragmentList);
+            possition = 1;
+        } else {
+            def();
+            line1A.setVisibility(View.VISIBLE);
+            replaceFragment(fragmentFav);
+            possition = 0;
+        }
 
         fragmentList.setOnLocationListener(new LocaiotnListener() {
             @Override
@@ -304,4 +313,7 @@ public class ActivityLocation extends FragmentActivity {
 
     }
 
+    public void back(View v) {
+        finish();
+    }
 }

@@ -584,4 +584,5 @@
 
     <string name="RecipientEmail">Recipient\'s Email</string>
     <string name="PleaseSelectTurn">Please select turnaround time</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

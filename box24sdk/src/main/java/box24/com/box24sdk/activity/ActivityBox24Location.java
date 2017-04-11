@@ -3,13 +3,24 @@ package box24.com.box24sdk.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import box24.com.box24sdk.R;
+import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.model.LocationBox24;
+import box24.com.box24sdk.utils.JsonParserWashbox;
+import box24.com.box24sdk.utils.ServiceConnection;
+import box24.com.box24sdk.utils.VariableWashbox;
 
 /**
  * Created by ERROR on 12/25/2014.
@@ -33,8 +44,20 @@ public class ActivityBox24Location extends Activity {
         setContentView(R.layout.activity_box24_location);
         context = this;
 
-        final TextView btn_next = (TextView) findViewById(R.id.btn_next);
+        ServiceConnection serviceConnection = new ServiceConnection(this);
 
+        final TextView btn_next = (TextView) findViewById(R.id.btn_next);
+        LinearLayout layoutTitle = (LinearLayout) findViewById(R.id.layout_title);
+        if (Settings.ColorMain != 0) {
+            layoutTitle.setBackgroundColor(Settings.ColorMain);
+        }
+        FrameLayout layoutHeader = (FrameLayout) findViewById(R.id.layout_header);
+
+        if (Settings.Header != 0) {
+            View view = LayoutInflater.from(this).inflate(Settings.Header, null);
+            layoutHeader.addView(view);
+
+        }
 
         edt_promo_code = (EditText) findViewById(R.id.edt_promo_code);
         tv_locker = (TextView) findViewById(R.id.tv_locker);
@@ -73,7 +96,44 @@ public class ActivityBox24Location extends Activity {
             }
         });
 
+        Map<String, Object> param = new HashMap<String, Object>();
+        param.put("keyword", "");
+        param.put("isFavorite", 1);
+        param.put("ContactMobile", Settings.PARAM_PHONE);
+//		param.put("LanguageID", UtilsApp.getLanguageID(getActivity()));
 
+        serviceConnection.post(false, VariableWashbox.URL_WASHBOX_LOCATION_FAV, param, new ServiceConnection.CallBackListener() {
+            @Override
+            public void callback(String result) {
+                final List<LocationBox24> listLocationBox24 = JsonParserWashbox.parseMap(result);
+                if (!listLocationBox24.isEmpty()) {
+                    locationBox24 = listLocationBox24.get(0);
+                    tv_locker.setText(listLocationBox24.get(0).location_name_for_api_use);
+                } else {
+                    locationBox24 = null;
+                    tv_locker.setText("");
+                }
+
+                tv_locker.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent in = new Intent(context, ActivityLocation.class);
+                        in.putExtra("locker", 0);
+                        if (listLocationBox24.isEmpty()) {
+                            in.putExtra("isFav", false);
+                        } else {
+                            in.putExtra("isFav", true);
+                        }
+                        startActivityForResult(in, 0001);
+                    }
+                });
+            }
+
+            @Override
+            public void fail(String result) {
+
+            }
+        });
     }
 
 
@@ -93,5 +153,7 @@ public class ActivityBox24Location extends Activity {
         }
     }
 
-
+    public void back(View v) {
+        finish();
+    }
 }

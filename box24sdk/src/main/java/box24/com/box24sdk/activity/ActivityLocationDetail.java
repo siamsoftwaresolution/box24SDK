@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -22,6 +23,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -29,6 +31,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import box24.com.box24sdk.R;
+import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.model.LocationBox24;
 import box24.com.box24sdk.utils.SPUtils;
 import box24.com.box24sdk.utils.ServiceConnection;
@@ -56,12 +59,15 @@ public class ActivityLocationDetail extends FragmentActivity implements
         locker = getIntent().getIntExtra("locker", 0);
         loca = (LocationBox24) getIntent().getSerializableExtra("model");
 
-
+        LinearLayout layoutTitle = (LinearLayout) findViewById(R.id.layout_title);
+        if (Settings.ColorMain != 0) {
+            layoutTitle.setBackgroundColor(Settings.ColorMain);
+        }
         TextView tv_locker = (TextView) findViewById(R.id.tv_locker);
 
 
         tv_locker.setText(loca.location_avilable_locker);
-
+        pin = BitmapDescriptorFactory.fromResource(R.drawable.pin_icon);
 
         serviceConnection = new ServiceConnection(this);
 
@@ -147,13 +153,13 @@ public class ActivityLocationDetail extends FragmentActivity implements
             phone.setVisibility(View.GONE);
         }
 
-        if (locker == 0) {
-            tv_title.setText(getString(R.string.LockerSelectTerminalLocker));
-            tv_send.setText(getString(R.string.SelectTerminalLocker));
-        } else {
-            tv_title.setText(getString(R.string.SelectStartingLocker));
-            tv_send.setText(getString(R.string.SelectStartingLocker));
-        }
+//        if (locker == 0) {
+//            tv_title.setText(getString(R.string.LockerSelectTerminalLocker));
+//            tv_send.setText(getString(R.string.SelectTerminalLocker));
+//        } else {
+//            tv_title.setText(getString(R.string.SelectStartingLocker));
+//            tv_send.setText(getString(R.string.SelectStartingLocker));
+//        }
 
         if (loca.fav == 1) {
             btn_fav.setActivated(true);
@@ -224,11 +230,11 @@ public class ActivityLocationDetail extends FragmentActivity implements
     @Override
     public void onLocationChanged(android.location.Location location) {
         // TODO Auto-generated method stub
-        LatLng latLng = new LatLng(location.getLatitude(),
-                location.getLongitude());
-        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,
-                10);
-        mMap.animateCamera(cameraUpdate);
+//        LatLng latLng = new LatLng(location.getLatitude(),
+//                location.getLongitude());
+//        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,
+//                10);
+//        mMap.animateCamera(cameraUpdate);
         locationManager.removeUpdates(this);
     }
 
@@ -254,7 +260,7 @@ public class ActivityLocationDetail extends FragmentActivity implements
         Map<String, Object> maps = new HashMap<>();
         maps.put("location_id", id);
         maps.put("Status", fav);
-
+        maps.put("ContactMobile", Settings.PARAM_PHONE);
         serviceConnection.post(true, VariableWashbox.URL_WASHBOX_LOCATION_UPDATE_FAV, maps, new ServiceConnection.CallBackListener() {
             @Override
             public void callback(String result) {
@@ -268,5 +274,8 @@ public class ActivityLocationDetail extends FragmentActivity implements
         });
 
 
+    }
+    public void back(View v) {
+        finish();
     }
 }

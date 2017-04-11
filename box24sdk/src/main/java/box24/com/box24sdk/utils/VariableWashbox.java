@@ -12,8 +12,8 @@ public class VariableWashbox {
     public static String URL_WASHBOX_SERVICE_LOCKER = "http://api.box24corp.com/mobile/india/pages/get_service_inlocker.php";
 
 
-    public static String URL_WASHBOX_LOCATION_FAV = HEADER + "/general/getLocation";
+    public static String URL_WASHBOX_LOCATION_FAV = "http://api.box24corp.com/mobile/india/pages/get_location_mobile.php";
 
-    public static String URL_WASHBOX_LOCATION_UPDATE_FAV = HEADER + "/general/updateFavoriteLocation";
+    public static String URL_WASHBOX_LOCATION_UPDATE_FAV = "http://api.box24corp.com/mobile/india/pages/update_favorite_location.php";
 
 }

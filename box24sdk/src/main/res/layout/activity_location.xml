@@ -27,7 +27,7 @@
             android:layout_gravity="center"
             android:padding="10dp"
             android:gravity="center_vertical"
-            android:text="@string/DropOffIcon"
+            android:text="@string/Locker"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
@@ -102,7 +102,7 @@
                         android:id="@+id/line0"
                         android:layout_width="match_parent"
                         android:layout_height="5dp"
-                        android:background="@color/red"
+                        android:background="@color/pink"
                         android:visibility="invisible" />
                 </LinearLayout>
 
@@ -125,7 +125,7 @@
                         android:id="@+id/line1"
                         android:layout_width="match_parent"
                         android:layout_height="5dp"
-                        android:background="@color/red" />
+                        android:background="@color/pink" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -147,7 +147,7 @@
                         android:id="@+id/line2"
                         android:layout_width="match_parent"
                         android:layout_height="5dp"
-                        android:background="@color/red"
+                        android:background="@color/pink"
                         android:visibility="invisible" />
                 </LinearLayout>
             </LinearLayout>

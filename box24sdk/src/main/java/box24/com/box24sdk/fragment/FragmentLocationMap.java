@@ -20,24 +20,21 @@ import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-
-import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import box24.com.box24sdk.R;
+import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.activity.ActivityLocation;
 import box24.com.box24sdk.activity.ActivityLocationDetail;
 import box24.com.box24sdk.model.LocationBox24;
 import box24.com.box24sdk.utils.JsonParserWashbox;
 import box24.com.box24sdk.utils.ServiceConnection;
-import box24.com.box24sdk.utils.UtilsApp;
 import box24.com.box24sdk.utils.VariableWashbox;
 
 /**
@@ -135,11 +132,10 @@ public class FragmentLocationMap extends Fragment implements
 //
 //	}
 	public void asyncJson(String keyword) {
-
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("keyword", keyword);
 		param.put("isFavorite", 0);
-
+		param.put("ContactMobile", Settings.PARAM_PHONE);
 		serviceConnection.post(true, VariableWashbox.URL_WASHBOX_LOCATION_FAV, param, new ServiceConnection.CallBackListener() {
 			@Override
 			public void callback(String result) {
@@ -222,11 +218,11 @@ public class FragmentLocationMap extends Fragment implements
 	@Override
 	public void onLocationChanged(android.location.Location location) {
 		// TODO Auto-generated method stub
-		LatLng latLng = new LatLng(location.getLatitude(),
-				location.getLongitude());
-		CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,
-				13);
-		mMap.animateCamera(cameraUpdate);
+//		LatLng latLng = new LatLng(location.getLatitude(),
+//				location.getLongitude());
+//		CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,
+//				13);
+//		mMap.animateCamera(cameraUpdate);
 		locationManager.removeUpdates(this);
 	}
 

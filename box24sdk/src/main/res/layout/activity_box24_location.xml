@@ -13,10 +13,10 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:onClick="back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="back"
             android:padding="10dp"
             android:src="@drawable/navbar_icon_arrowback" />
 
@@ -25,13 +25,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:padding="10dp"
             android:gravity="center_vertical"
+            android:padding="10dp"
             android:text="@string/DropOffIcon"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
     </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,34 +69,38 @@
                 android:id="@+id/tv_locker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bg_rec_stoke_grey"
+                android:drawableRight="@drawable/search_ic"
                 android:hint="@string/Locker"
                 android:padding="10dp"
                 android:singleLine="true"
-                android:textColor="@color/red"
-
+                android:textColor="@color/pink"
                 android:textSize="@dimen/text_normal" />
 
 
         </LinearLayout>
 
 
-<!--        <TextView
-            android:id="@+id/btn_laundy_note"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/bg_rec_red"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="@string/LaundryNote"
-            android:textColor="@color/red"
-            android:textSize="@dimen/text_normal" />-->
+        <!--        <TextView
+                    android:id="@+id/btn_laundy_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_rec_red"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/LaundryNote"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_normal" />-->
 
-
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
 
         <box24.com.box24sdk.utils.CustomText
