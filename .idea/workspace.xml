@@ -10,60 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6736d0-2483-4ad1-a58a-0009e2d92fb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/map_locker_pin_india.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexter_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_2_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/schedule_india.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/schedule_india.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/box24sdk.iml" afterPath="$PROJECT_DIR$/box24sdk/box24sdk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/build.gradle" afterPath="$PROJECT_DIR$/box24sdk/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_box24_location.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_box24_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Box24SDKGitHub.iws" />
@@ -136,7 +85,7 @@
       <file leaf-file-name="ActivityBox24Locker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="2067">
               <caret line="159" column="45" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,12 +100,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="1846">
               <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
-              <folding>
-                <element signature="e#6005#6036#0" expanded="true" />
-                <element signature="e#6543#6562#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,36 +140,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_laundry.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1491991880000" expanded="true" signature="1793:1968" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentLocationFavorite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="233" column="12" selection-start-line="233" selection-start-column="12" selection-end-line="242" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_location_detail.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="165" column="36" selection-start-line="165" selection-start-column="36" selection-end-line="165" selection-end-column="36" />
-              <folding>
-                <element signature="e#1790#1809#0" expanded="true" />
-                <element signature="e#5726#5754#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="126" column="40" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <marker date="1491991095000" expanded="true" signature="1793:1968" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_maps.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_maps.xml">
+      <file leaf-file-name="fragment_washbox_info_location_list.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_list.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
@@ -238,12 +191,9 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="587" column="51" selection-start-line="587" selection-start-column="51" selection-end-line="587" selection-end-column="51" />
-              <folding>
-                <element signature="e#8372#8377#0" expanded="true" />
-                <element signature="e#31663#31668#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2391,7 +2341,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4463795409000" />
+        <entry key="$PROJECT_DIR$" value="4463796194000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2856,7 +2806,6 @@
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java" />
@@ -2871,11 +2820,12 @@
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml" />
         <option value="$PROJECT_DIR$/box24sdk/build/intermediates/res/merged/debug/layout/fragment_washbox_info_location_map.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" />
         <option value="$PROJECT_DIR$/box24sdk/build.gradle" />
       </list>
     </option>
@@ -2910,9 +2860,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3187,9 +3138,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3696,7 +3646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491910770087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="point color">
+      <created>1491991406475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491991406475</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3709,8 +3666,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="829" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="829" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3727,7 +3684,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28397712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3745,6 +3701,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3763,7 +3720,8 @@
     <MESSAGE value="never show again" />
     <MESSAGE value="add map" />
     <MESSAGE value="add laundry" />
-    <option name="LAST_COMMIT_MESSAGE" value="add laundry" />
+    <MESSAGE value="point color" />
+    <option name="LAST_COMMIT_MESSAGE" value="point color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3772,11 +3730,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/ic_pickup.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/pin_ic.png" />
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/express_btn_active.png">
       <provider selected="true" editor-type-id="images">
@@ -3815,7 +3768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3836,7 +3788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3872,7 +3823,7 @@
         <state relative-caret-position="257">
           <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
-            <element signature="e#1352#1376#0" expanded="true" />
+            <element signature="e#1352#1376#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3885,19 +3836,8 @@
         <state relative-caret-position="244">
           <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
-            <element signature="e#1148#1167#0" expanded="true" />
+            <element signature="e#1148#1167#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3917,7 +3857,7 @@
         <state relative-caret-position="387">
           <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
           <folding>
-            <element signature="e#3020#3042#0" expanded="true" />
+            <element signature="e#3020#3042#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3942,7 +3882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3958,14 +3897,6 @@
           <folding>
             <element signature="e#1119#1140#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="118" column="57" selection-start-line="118" selection-start-column="57" selection-end-line="118" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4056,8 +3987,8 @@
         <state relative-caret-position="166">
           <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding>
-            <element signature="e#2001#2020#0" expanded="true" />
-            <element signature="e#2541#2564#0" expanded="true" />
+            <element signature="e#2001#2020#0" expanded="false" />
+            <element signature="e#2541#2564#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4091,7 +4022,7 @@
         <state relative-caret-position="179">
           <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
           <folding>
-            <element signature="e#3830#3849#0" expanded="true" />
+            <element signature="e#3830#3849#0" expanded="false" />
             <marker date="1491984154000" expanded="true" signature="6427:6450" ph="&quot;Promotion Code&quot;" />
             <marker date="1491984154000" expanded="false" signature="6612:6632" ph="&quot;14sp&quot;" />
           </folding>
@@ -4147,29 +4078,15 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="2145">
           <caret line="165" column="36" selection-start-line="165" selection-start-column="36" selection-end-line="165" selection-end-column="36" />
-          <folding>
-            <element signature="e#1790#1809#0" expanded="true" />
-            <element signature="e#5726#5754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="587" column="51" selection-start-line="587" selection-start-column="51" selection-end-line="587" selection-end-column="51" />
-          <folding>
-            <element signature="e#8372#8377#0" expanded="true" />
-            <element signature="e#31663#31668#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="2067">
           <caret line="159" column="45" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -4182,12 +4099,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="1846">
           <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
-          <folding>
-            <element signature="e#6005#6036#0" expanded="true" />
-            <element signature="e#6543#6562#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4226,12 +4140,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_list.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="126" column="40" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="233" column="12" selection-start-line="233" selection-start-column="12" selection-end-line="242" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1491991095000" expanded="true" signature="1793:1968" ph="..." />
+            <marker date="1491991880000" expanded="true" signature="1793:1968" ph="..." />
           </folding>
         </state>
       </provider>

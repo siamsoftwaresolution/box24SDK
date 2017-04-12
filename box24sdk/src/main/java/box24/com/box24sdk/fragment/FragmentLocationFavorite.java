@@ -222,7 +222,7 @@ public class FragmentLocationFavorite extends Fragment {
             LocationBox24 bag = getItem(position);
             TextView id = (TextView) vi.findViewById(R.id.tv_name);
             TextView type = (TextView) vi.findViewById(R.id.tv_des);
-            TextView phone = (TextView) vi.findViewById(R.id.tv_phone);
+//            TextView phone = (TextView) vi.findViewById(R.id.tv_phone);
             TextView tv_locker = (TextView) vi.findViewById(R.id.tv_locker);
 
 //            tv_status.setText(bag.location_avilable_status);
@@ -231,16 +231,16 @@ public class FragmentLocationFavorite extends Fragment {
             id.setCompoundDrawablePadding(10);
             id.setText(bag.location_name_for_api_use);
             type.setText(bag.location_address_for_api_use);
-            phone.setText("tel : " + bag.location_tel_for_api_use);
-            try {
-                if (bag.location_tel_for_api_use.equals("")) {
-                    phone.setVisibility(View.GONE);
-                } else {
-                    phone.setVisibility(View.VISIBLE);
-                }
-            } catch (Exception e) {
-                phone.setVisibility(View.GONE);
-            }
+//            phone.setText("tel : " + bag.location_tel_for_api_use);
+//            try {
+//                if (bag.location_tel_for_api_use.equals("")) {
+//                    phone.setVisibility(View.GONE);
+//                } else {
+//                    phone.setVisibility(View.VISIBLE);
+//                }
+//            } catch (Exception e) {
+//                phone.setVisibility(View.GONE);
+//            }
             return vi;
         }
 

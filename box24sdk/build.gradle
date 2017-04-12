@@ -15,7 +15,7 @@ ext {
     siteUrl = 'https://github.com/siamsoftwaresolution/box24SDK'
     gitUrl = 'https://github.com/siamsoftwaresolution/box24SDK.git'
 
-    libraryVersion = '2.47'
+    libraryVersion = '2.49'
 
     developerId = 'manasit'
     developerName = 'manasit kittiyotthada'
