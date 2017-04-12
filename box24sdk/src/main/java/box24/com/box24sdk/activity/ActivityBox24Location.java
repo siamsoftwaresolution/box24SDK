@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -20,6 +19,7 @@ import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.model.LocationBox24;
 import box24.com.box24sdk.utils.JsonParserWashbox;
 import box24.com.box24sdk.utils.ServiceConnection;
+import box24.com.box24sdk.utils.UtilsApp;
 import box24.com.box24sdk.utils.VariableWashbox;
 
 /**
@@ -33,7 +33,7 @@ public class ActivityBox24Location extends Activity {
 
     private LocationBox24 locationBox24;
     private TextView tv_locker;
-    private EditText edt_promo_code;
+//    private EditText edt_promo_code;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,7 @@ public class ActivityBox24Location extends Activity {
 
         }
 
-        edt_promo_code = (EditText) findViewById(R.id.edt_promo_code);
+//        edt_promo_code = (EditText) findViewById(R.id.edt_promo_code);
         tv_locker = (TextView) findViewById(R.id.tv_locker);
 
 
@@ -86,11 +86,12 @@ public class ActivityBox24Location extends Activity {
             public void onClick(View arg0) {
                 // TODO Auto-generated method stub
                 if (locationBox24 == null || locationBox24.location_id == null) {
+                    UtilsApp.alerDialogTitle(context,getString(R.string.Notice),"Please select the drop off locker");
                     return;
                 }
                 Intent in = new Intent(context, ActivityBox24Laundry.class);
                 in.putExtra("locationID", locationBox24.location_id);
-                in.putExtra("promo", edt_promo_code.getText().toString());
+//                in.putExtra("promo", edt_promo_code.getText().toString());
                 startActivity(in);
 
             }
@@ -100,6 +101,7 @@ public class ActivityBox24Location extends Activity {
         param.put("keyword", "");
         param.put("isFavorite", 1);
         param.put("ContactMobile", Settings.PARAM_PHONE);
+//        param.put("lat", Settings.PARAM_PHONE);
 //		param.put("LanguageID", UtilsApp.getLanguageID(getActivity()));
 
         serviceConnection.post(false, VariableWashbox.URL_WASHBOX_LOCATION_FAV, param, new ServiceConnection.CallBackListener() {
@@ -110,6 +112,7 @@ public class ActivityBox24Location extends Activity {
                     locationBox24 = listLocationBox24.get(0);
                     tv_locker.setText(listLocationBox24.get(0).location_name_for_api_use);
                 } else {
+
                     locationBox24 = null;
                     tv_locker.setText("");
                 }

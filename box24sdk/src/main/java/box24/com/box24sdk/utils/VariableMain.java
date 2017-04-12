@@ -2,6 +2,8 @@ package box24.com.box24sdk.utils;
 
 import android.graphics.Bitmap;
 
+import com.google.android.gms.maps.model.LatLng;
+
 
 public class VariableMain {
 
@@ -19,5 +21,6 @@ public class VariableMain {
     //	public static String PROFILE_IMAGE = "profile_image";
     public static String PROFILE_NAME = "profile_name";
     public static String PROFILE = "profile";
+    public static LatLng latLng=new LatLng(0,0);
 
 }

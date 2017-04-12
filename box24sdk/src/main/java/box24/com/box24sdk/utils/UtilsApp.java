@@ -352,7 +352,7 @@ public class UtilsApp {
         new AlertDialog.Builder(c)
                 .setTitle(title)
                 .setMessage(message)
-                .setPositiveButton(android.R.string.ok,
+                .setPositiveButton(c.getString(R.string.OK),
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,
                                                 int which) {

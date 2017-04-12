@@ -13,6 +13,7 @@ import android.widget.TextView;
 import box24.com.box24sdk.R;
 import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.utils.ServiceConnection;
+import box24.com.box24sdk.utils.UtilsApp;
 
 
 //import com.pheonec.mobbox.washbox.tourguide.FrameLayoutWithHoleApp;
@@ -22,13 +23,13 @@ public class ActivityBox24Laundry extends Activity {
 
     private Context context;
     private ServiceConnection serviceConnection;
-    String promo = "";
+//    String promo = "";
     String locationID = "";
 String laundry = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        promo = getIntent().getStringExtra("promo");
+//        promo = getIntent().getStringExtra("promo");
         locationID = getIntent().getStringExtra("locationID");
         serviceConnection = new ServiceConnection(this);
         blind();
@@ -86,14 +87,14 @@ String laundry = "";
             @Override
             public void onClick(View v) {
                 if (!btn1.isActivated() && !btn2.isActivated()&& !btn3.isActivated()) {
-
+                    UtilsApp.alerDialogTitle(context,getString(R.string.Notice),getString(R.string.Pleaseselectmodeofservice));
                     return;
                 }
 
 
                 Intent in = new Intent(context, ActivityBox24Drop.class);
                 in.putExtra("locationID", locationID);
-                in.putExtra("promo", promo);
+//                in.putExtra("promo", promo);
                 in.putExtra("laundry", laundry);
                 startActivity(in);
             }

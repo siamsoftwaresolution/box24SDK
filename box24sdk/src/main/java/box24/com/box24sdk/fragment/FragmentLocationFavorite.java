@@ -25,6 +25,7 @@ import box24.com.box24sdk.activity.ActivityLocationDetail;
 import box24.com.box24sdk.model.LocationBox24;
 import box24.com.box24sdk.utils.JsonParserWashbox;
 import box24.com.box24sdk.utils.ServiceConnection;
+import box24.com.box24sdk.utils.VariableMain;
 import box24.com.box24sdk.utils.VariableWashbox;
 
 /**
@@ -114,6 +115,8 @@ public class FragmentLocationFavorite extends Fragment {
         param.put("keyword", keyword);
         param.put("isFavorite", 1);
         param.put("ContactMobile", Settings.PARAM_PHONE);
+        param.put("lat", VariableMain.latLng.latitude);
+        param.put("long", VariableMain.latLng.longitude);
 //		param.put("LanguageID", UtilsApp.getLanguageID(getActivity()));
 
         serviceConnection.post(true, VariableWashbox.URL_WASHBOX_LOCATION_FAV, param, new ServiceConnection.CallBackListener() {

@@ -1,9 +1,13 @@
 package box24.com.box24sdk.activity;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -64,11 +68,25 @@ public class ActivityBox24Locker extends Activity {
 									long arg3) {
 				// TODO Auto-generated method stub
 
-				Intent in = new Intent(context, ActivityBox24DropQuickPin.class);
-				in.putExtra("promo", adapter.getItem(arg2).QP_Pickup);
-				in.putExtra("image",  adapter.getItem(arg2).Des);
-				in.putExtra("page", 1);
-				startActivity(in);
+				if(adapter.getItem(arg2).Type.equals("Popup")){
+					new AlertDialog.Builder(context).setTitle(adapter.getItem(arg2).Popup_Header)
+							.setMessage(adapter.getItem(arg2).Popup_Message)
+							.setPositiveButton(adapter.getItem(arg2).Popup_Botton,
+									new DialogInterface.OnClickListener() {
+										public void onClick(DialogInterface dialog,
+															int which) {
+											// continue with delete
+										}
+									}).show();
+
+				}else{
+					Intent in = new Intent(context, ActivityBox24DropQuickPin.class);
+					in.putExtra("promo", adapter.getItem(arg2).QP_Pickup);
+					in.putExtra("image",  adapter.getItem(arg2).Des);
+					in.putExtra("page", 1);
+					startActivity(in);
+				}
+
 
 			}
 		});
@@ -126,15 +144,25 @@ public class ActivityBox24Locker extends Activity {
 			ImageView point = (ImageView) vi.findViewById(R.id.point);
 
 			tv_name.setText(bag.LocaEn);
+
 			tv_quick.setText(bag.QP_Pickup);
+			Log.i("color",bag.QP_Pickup_color);
+			if(bag.Type.equals("Popup")){
+				int color = Color.parseColor("#"+bag.QP_Pickup_color);
+				tv_quick.setTextColor(color);
+			}else{
+				tv_quick.setTextColor(Color.BLACK);
+			}
+
+
 			tv_id.setText(bag.LockID);
 			tv_date.setText(bag.dateDropToLocker);
 			if(bag.statusNumber.equals("1")){
-				point.setImageResource(R.drawable.point_yellow2);
-			}else if(bag.statusNumber.equals("1")){
 				point.setImageResource(R.drawable.point_blue);
+			}else if(bag.statusNumber.equals("2")){
+				point.setImageResource(R.drawable.point_yellow2);
 			}else {
-				point.setImageResource(R.drawable.point_red);
+				point.setImageResource(R.drawable.point_pink);
 			}
 
 

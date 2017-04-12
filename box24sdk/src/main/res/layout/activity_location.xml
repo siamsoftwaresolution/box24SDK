@@ -27,7 +27,7 @@
             android:layout_gravity="center"
             android:padding="10dp"
             android:gravity="center_vertical"
-            android:text="@string/Locker"
+            android:text="@string/Locations"
             android:textColor="@color/white"
             android:textSize="22sp" />
 

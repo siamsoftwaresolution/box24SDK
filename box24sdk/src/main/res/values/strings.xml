@@ -8,12 +8,12 @@
     <string name="Intro2Header">Drop Off</string>
     <string name="Intro3Header">Notify</string>
     <string name="Intro4Header">Pick Up</string>
-    <string name="Intro5Header">Schedule</string>
-    <string name="Intro1Detail">Log on to www.washbox24.com or download Box24 app (iPhone and Android) to get your self signed up</string>
-    <string name="Intro2Detail">Drop your items off anytime 24/7 at the locker using Quick Pin or your mobile number</string>
-    <string name="Intro3Detail">Get notified by App, SMS, and/or E-mail right to your phone</string>
-    <string name="Intro4Detail">Pick your items up anytime 24/7 at the locker using Quick Pin</string>
-    <string name="Intro5Detail">Standard turn-around time is 4 working days (e.g. drop off on Monday (before 10 AM), pick up on Friday *Terms and conditions applied</string>
+    <string name="Intro5Header">Turnaround Time</string>
+    <string name="Intro1Detail">\nLog on to www.washbox24.com or download Box24 app (iPhone and Android) to get your self signed up</string>
+    <string name="Intro2Detail">\nDrop your items off anytime 24/7 at the locker using Quick Pin or your mobile number</string>
+    <string name="Intro3Detail">\nGet notified by App and/or SMS right to your phone</string>
+    <string name="Intro4Detail">\nPick your items up anytime 24/7 at the locker using Quick Pin</string>
+    <string name="Intro5Detail">\nRegular: Turnaround time of 72 hours\n\nExpress: Turnaround time of 24 hours\n\n*100% additional charges are applicable</string>
     <string name="Email">Email</string>
     <string name="Password">Password</string>
     <string name="ConfirmPassword">Confirm Password</string>
@@ -91,7 +91,7 @@
     <string name="ListMap">List</string>
     <string name="Map">Map</string>
     <string name="OurServices">Our Services</string>
-    <string name="SelectLocation">Please select locationBox24 or you can add your favourite branch at branch detail</string>
+    <string name="SelectLocation">Please select location or you can add your favorite locker at Locker Detail</string>
     <string name="CreditsShare">CREDITS :</string>
     <string name="BahtShare">SGD</string>
     <string name="ExpireDateShare">EXPIRE DATE :</string>
@@ -150,7 +150,7 @@
     <string name="BranchDetail">Branch Detail</string>
     <string name="DryCleaning">Dry Cleaning</string>
     <string name="Laundry">Laundry</string>
-    <string name="LaundryDryCleaning">Laundry &amp; Dry Cleaning</string>
+    <string name="LaundryDryCleaning">Laundry &amp; Dry Cleaning*</string>
     <string name="BagAndShoesSpa">Bag &amp; Shoes Spa</string>
     <string name="PackageDelivery">Package Delivery</string>
     <string name="PriceItemsHeader">Items</string>
@@ -415,7 +415,7 @@
     <string name="CleanType">Clean Type</string>
     <string name="Note">Note</string>
 
-    <string name="Nevershowagain">*Never show again</string>
+    <string name="Nevershowagain">Never Show Again</string>
 
     <string name="Remarks">Remarks</string>
     <string name="Youcannotsendsofa">You can\'t send sofa/furniture cover, curtain, and carpet with other items</string>
@@ -445,7 +445,7 @@
     <string name="Door">Door</string>
     <string name="QuickPin">Quick Pin (Pick Up)</string>
     <string name="serviceLocker_status1">Ready for Pick Up</string>
-    <string name="serviceLocker_status2">In Locker over 48 Hrs</string>
+    <string name="serviceLocker_status2">In Locker over 48 Hours</string>
     <string name="serviceLocker_status3">At Warehouse</string>
     <string name="Closet">Closet+</string>
     <string name="ServiceLockerTitle">Pick Up</string>
@@ -571,9 +571,9 @@
     <string name="QuickPinDropOff">Quick Pin (Drop Off)</string>
     <string name="QuickPinPickUp">Quick Pin (Pick Up)</string>
 
-    <string name="express_sg">Get your laundry back in just 2 working days\n* Additional 50% surcharge</string>
-    <string name="normal_sg">4 working days turn-around time</string>
-    <string name="PleasePressQ">Please press "Quick Pin" at the selected locker and enter above 12-digit code to drop off your clothes</string>
+    <string name="express_sg">Turnaround time of 24 hours\n*100% additional charges are applicable</string>
+    <string name="normal_sg">Turnaround time of 72 hours</string>
+    <string name="PleasePressQ">Please select Quick Pin at the selected locker and enter the 12-digit code or scan the barcode at locker’s barcode reader to drop off your items</string>
     <string name="BeginningIron">Beginning Credit (Iron)</string>
     <string name="CreditBalanceIron">Credit Balance (Iron)</string>
 
@@ -584,8 +584,8 @@
     <string name="DeliveryInfo">Delivery Info</string>
 
     <string name="RecipientEmail">Recipient\'s Email</string>
-    <string name="PleaseSelectTurn">Please select turnaround time</string>
+    <string name="PleaseSelectTurn">Please select the service speed</string>
     <string name="title_activity_maps">Map</string>
 
-    <string name="note">Please note: In case of Laundry and Dry Cleaning, please keep the clothes for Laundry and Dry Cleaning in separate bags and please enclose a note for the kind of service</string>
+    <string name="note">*In case of Laundry &amp; Dry Cleaning, please keep the clothes for laundry and dry cleaning in separate bags and please enclose a note for the kind of service</string>
 </resources>

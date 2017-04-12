@@ -25,6 +25,7 @@ import box24.com.box24sdk.activity.ActivityLocationDetail;
 import box24.com.box24sdk.model.LocationBox24;
 import box24.com.box24sdk.utils.JsonParserWashbox;
 import box24.com.box24sdk.utils.ServiceConnection;
+import box24.com.box24sdk.utils.VariableMain;
 import box24.com.box24sdk.utils.VariableWashbox;
 
 /**
@@ -102,6 +103,8 @@ public class FragmentLocationList extends Fragment {
         param.put("keyword", keyword);
         param.put("isFavorite", 0);
         param.put("ContactMobile", Settings.PARAM_PHONE);
+        param.put("lat", VariableMain.latLng.latitude);
+        param.put("long", VariableMain.latLng.longitude);
         serviceConnection.post(true, VariableWashbox.URL_WASHBOX_LOCATION_FAV, param, new ServiceConnection.CallBackListener() {
             @Override
             public void callback(String result) {
@@ -132,7 +135,7 @@ public class FragmentLocationList extends Fragment {
                 LocationBox24 bag = getItem(position);
                 TextView id = (TextView) vi.findViewById(R.id.tv_name);
                 TextView type = (TextView) vi.findViewById(R.id.tv_des);
-                TextView phone = (TextView) vi.findViewById(R.id.tv_phone);
+//                TextView phone = (TextView) vi.findViewById(R.id.tv_phone);
 //            TextView tv_status = (TextView) vi.findViewById(R.id.tv_status);
                 TextView tv_locker = (TextView) vi.findViewById(R.id.tv_locker);
 
@@ -142,12 +145,12 @@ public class FragmentLocationList extends Fragment {
                 tv_locker.setText(bag.location_avilable_locker);
                 id.setText(bag.location_name_for_api_use);
                 type.setText(bag.location_address_for_api_use);
-                phone.setText("Tel : " + bag.location_tel_for_api_use);
-                if (bag.location_tel_for_api_use.equals("")) {
-                    phone.setVisibility(View.GONE);
-                } else {
-                    phone.setVisibility(View.VISIBLE);
-                }
+//                phone.setText("Tel : " + bag.location_tel_for_api_use);
+//                if (bag.location_tel_for_api_use.equals("")) {
+//                    phone.setVisibility(View.GONE);
+//                } else {
+//                    phone.setVisibility(View.VISIBLE);
+//                }
                 return vi;
             }
 

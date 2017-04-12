@@ -27,7 +27,7 @@
             android:layout_gravity="center"
             android:gravity="center_vertical"
             android:padding="10dp"
-            android:text="@string/QuickPinDropOff"
+            android:text="Drop Off QP/Barcode"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
@@ -105,7 +105,7 @@
         android:background="@drawable/bg_rec_stoke_pink"
         android:gravity="center"
         android:padding="10dp"
-        android:text="@string/OK"
+        android:text="@string/Done"
         android:textColor="@color/white"
         android:textSize="@dimen/text_large" />
 </LinearLayout>

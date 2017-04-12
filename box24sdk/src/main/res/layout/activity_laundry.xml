@@ -27,7 +27,7 @@
             android:layout_gravity="center"
             android:gravity="center_vertical"
             android:padding="10dp"
-            android:text="@string/Laundry"
+            android:text="Type of Service"
             android:textColor="@color/white"
             android:textSize="22sp" />
 

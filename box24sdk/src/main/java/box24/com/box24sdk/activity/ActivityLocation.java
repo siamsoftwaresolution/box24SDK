@@ -1,7 +1,10 @@
 package box24.com.box24sdk.activity;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -18,17 +21,27 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.model.LatLng;
+import com.karumi.dexter.Dexter;
+import com.karumi.dexter.PermissionToken;
+import com.karumi.dexter.listener.PermissionDeniedResponse;
+import com.karumi.dexter.listener.PermissionGrantedResponse;
+import com.karumi.dexter.listener.PermissionRequest;
+import com.karumi.dexter.listener.single.PermissionListener;
+
 import box24.com.box24sdk.R;
 import box24.com.box24sdk.Settings;
 import box24.com.box24sdk.fragment.FragmentLocationFavorite;
 import box24.com.box24sdk.fragment.FragmentLocationList;
 import box24.com.box24sdk.fragment.FragmentLocationMap;
 import box24.com.box24sdk.model.LocationBox24;
+import box24.com.box24sdk.utils.UtilsApp;
+import box24.com.box24sdk.utils.VariableMain;
 
 /**
  * Created by ERROR on 12/25/2014.
  */
-public class ActivityLocation extends FragmentActivity {
+public class ActivityLocation extends FragmentActivity implements LocationListener {
 
 
     // private MyAdapter mAdapter;
@@ -55,7 +68,10 @@ public class ActivityLocation extends FragmentActivity {
 
     Context context;
     boolean isFav = false;
+    private LocationManager locationManager;
 
+    private static final long MIN_TIME = 400;
+    private static final float MIN_DISTANCE = 1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +88,25 @@ public class ActivityLocation extends FragmentActivity {
         if (Settings.ColorMain != 0) {
             layoutTitle.setBackgroundColor(Settings.ColorMain);
         }
+
+        Dexter.withActivity(this)
+                .withPermission(Manifest.permission.ACCESS_FINE_LOCATION)
+                .withListener(new PermissionListener() {
+                    @Override public void onPermissionGranted(PermissionGrantedResponse response) {
+                        locationManager = (LocationManager) getSystemService(
+                                Context.LOCATION_SERVICE);
+                        locationManager.requestLocationUpdates(
+                                LocationManager.NETWORK_PROVIDER, MIN_TIME, MIN_DISTANCE, ActivityLocation.this);
+                    }
+                    @Override public void onPermissionDenied(PermissionDeniedResponse response) {/* ... */}
+                    @Override public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {
+                        locationManager = (LocationManager) getSystemService(
+                                Context.LOCATION_SERVICE);
+                        locationManager.requestLocationUpdates(
+                                LocationManager.NETWORK_PROVIDER, MIN_TIME, MIN_DISTANCE, ActivityLocation.this);
+                    }
+                }).check();
+
 
 
         SEARCH = "";
@@ -188,6 +223,7 @@ public class ActivityLocation extends FragmentActivity {
 
 
         if (!isFav) {
+            UtilsApp.alerDialog(context, getString(R.string.SelectLocation));
             def();
             line2A.setVisibility(View.VISIBLE);
             replaceFragment(fragmentList);
@@ -246,6 +282,33 @@ public class ActivityLocation extends FragmentActivity {
         fragmentTransaction.replace(R.id.frame, frag);
         // fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
+
+    }
+
+    @Override
+    public void onLocationChanged(android.location.Location location) {
+        // TODO Auto-generated method stub
+		LatLng latLng = new LatLng(location.getLatitude(),
+				location.getLongitude());
+        VariableMain.latLng = latLng;
+//		CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,
+//				13);
+//		mMap.animateCamera(cameraUpdate);
+        locationManager.removeUpdates(this);
+    }
+
+    @Override
+    public void onStatusChanged(String s, int i, Bundle bundle) {
+
+    }
+
+    @Override
+    public void onProviderEnabled(String s) {
+
+    }
+
+    @Override
+    public void onProviderDisabled(String s) {
 
     }
 

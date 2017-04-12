@@ -67,7 +67,7 @@ public class ActivityLocationDetail extends FragmentActivity implements
 
 
         tv_locker.setText(loca.location_avilable_locker);
-        pin = BitmapDescriptorFactory.fromResource(R.drawable.pin_icon);
+        pin = BitmapDescriptorFactory.fromResource(R.drawable.map_locker_pin_india);
 
         serviceConnection = new ServiceConnection(this);
 

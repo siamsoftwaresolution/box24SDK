@@ -13,13 +13,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -35,6 +35,7 @@ import box24.com.box24sdk.activity.ActivityLocationDetail;
 import box24.com.box24sdk.model.LocationBox24;
 import box24.com.box24sdk.utils.JsonParserWashbox;
 import box24.com.box24sdk.utils.ServiceConnection;
+import box24.com.box24sdk.utils.VariableMain;
 import box24.com.box24sdk.utils.VariableWashbox;
 
 /**
@@ -66,7 +67,7 @@ public class FragmentLocationMap extends Fragment implements
 		locker = getArguments().getInt("locker");
 
 		 serviceConnection = new ServiceConnection(getActivity());
-
+		pin = BitmapDescriptorFactory.fromResource(R.drawable.map_locker_pin_india);
 		asyncJson(ActivityLocation.SEARCH);
 
 		return view;
@@ -136,6 +137,8 @@ public class FragmentLocationMap extends Fragment implements
 		param.put("keyword", keyword);
 		param.put("isFavorite", 0);
 		param.put("ContactMobile", Settings.PARAM_PHONE);
+		param.put("lat", VariableMain.latLng.latitude);
+		param.put("long", VariableMain.latLng.longitude);
 		serviceConnection.post(true, VariableWashbox.URL_WASHBOX_LOCATION_FAV, param, new ServiceConnection.CallBackListener() {
 			@Override
 			public void callback(String result) {

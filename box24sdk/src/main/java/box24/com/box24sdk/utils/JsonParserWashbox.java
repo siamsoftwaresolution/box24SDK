@@ -348,6 +348,11 @@ public class JsonParserWashbox {
                 }
                 re.QP_Pickup = jarray.getString("QP_Pickup");
                 re.dateDropToLocker = jarray.getString("dateDropToLocker");
+                re.Type = jarray.getString("Type");
+                re.QP_Pickup_color = jarray.getString("QP_Pickup_color");
+                re.Popup_Header = jarray.getString("Popup_Header");
+                re.Popup_Message = jarray.getString("Popup_Message");
+                re.Popup_Botton = jarray.getString("Popup_Botton");
                 list.add(re);
             }
 

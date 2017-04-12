@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -32,13 +33,14 @@ public class ActivityBox24Drop extends Activity {
 
     private Context context;
     private ServiceConnection serviceConnection;
-    String promo = "";
+    //    String promo = "";
     String locationID = "";
-String laundry = "";
+    String laundry = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        promo = getIntent().getStringExtra("promo");
+//        promo = getIntent().getStringExtra("promo");
         locationID = getIntent().getStringExtra("locationID");
         laundry = getIntent().getStringExtra("laundry");
         serviceConnection = new ServiceConnection(this);
@@ -52,7 +54,7 @@ String laundry = "";
         final LinearLayout btn_send = (LinearLayout) findViewById(R.id.btn_normal);
         final LinearLayout btn_receive = (LinearLayout) findViewById(R.id.btn_express);
         TextView btn_next = (TextView) findViewById(R.id.btn_next);
-//        final EditText edt_promo_code = (EditText) findViewById(R.id.edt_promo_code);
+        final EditText edt_promo_code = (EditText) findViewById(R.id.edt_promo_code);
         btn_send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -85,13 +87,13 @@ String laundry = "";
             public void onClick(View v) {
                 if (!btn_send.isActivated() && !btn_receive.isActivated()) {
 
-                    UtilsApp.alerDialog(context, getString(R.string.PleaseSelectTurn));
+                    UtilsApp.alerDialogTitle(context, getString(R.string.Notice), getString(R.string.PleaseSelectTurn));
                     return;
                 }
 
 
                 Map<String, Object> maps = new HashMap<String, Object>();
-                maps.put("PromotionCode", promo);
+                maps.put("PromotionCode", edt_promo_code.getText().toString());
                 maps.put("ContactMobile", Settings.PARAM_PHONE);
                 maps.put("ContactName", Settings.PARAM_NAME);
                 maps.put("ContactEmail", Settings.PARAM_EMAIL);

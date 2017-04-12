@@ -10,23 +10,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6736d0-2483-4ad1-a58a-0009e2d92fb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/dry_active_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/dry_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/launday_active_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/launday_dry_active_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/launday_dry_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/launday_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_dry.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_laundry.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_laundry_dry.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/map_locker_pin_india.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexter_4_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_2_0.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_0_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/schedule_india.png" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/schedule_india.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/box24sdk.iml" afterPath="$PROJECT_DIR$/box24sdk/box24sdk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/build.gradle" afterPath="$PROJECT_DIR$/box24sdk/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" afterPath="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_box24_location.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_box24_location.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Box24SDKGitHub.iws" />
@@ -96,24 +133,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ActivityBox24Drop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java">
+      <file leaf-file-name="ActivityBox24Locker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+            <state relative-caret-position="286">
+              <caret line="159" column="45" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_washbox_service_locker.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
+              <folding>
+                <element signature="e#6005#6036#0" expanded="true" />
+                <element signature="e#6543#6562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="point_blue.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_location.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location.xml">
+      <file leaf-file-name="fragment_washbox_info_location_map.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+            <state relative-caret-position="143">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -125,99 +200,50 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
+            <state relative-caret-position="250">
+              <caret line="165" column="36" selection-start-line="165" selection-start-column="36" selection-end-line="165" selection-end-column="36" />
               <folding>
-                <element signature="e#1148#1165#0" expanded="true" />
-                <element signature="e#1688#1723#0" expanded="true" />
                 <element signature="e#1790#1809#0" expanded="true" />
-                <element signature="e#3246#3263#0" expanded="true" />
-                <element signature="e#3354#3373#0" expanded="true" />
-                <element signature="e#4480#4501#0" expanded="true" />
-                <element signature="e#4592#4611#0" expanded="true" />
                 <element signature="e#5726#5754#0" expanded="true" />
-                <element signature="e#5845#5864#0" expanded="true" />
-                <element signature="e#6142#6156#0" expanded="true" />
-                <element signature="e#6231#6250#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_box24_location.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_box24_location.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="60" column="62" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selector_btn_drop.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_btn_drop.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="230">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1491910495000" expanded="true" signature="1755:1930" ph="..." />
+                <marker date="1491991095000" expanded="true" signature="1793:1968" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selector_dry.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_dry.xml">
+      <file leaf-file-name="activity_maps.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_maps.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selector_laundry.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_laundry.xml">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selector_laundry_dry.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_laundry_dry.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="245">
+              <caret line="587" column="51" selection-start-line="587" selection-start-column="51" selection-end-line="587" selection-end-column="51" />
+              <folding>
+                <element signature="e#8372#8377#0" expanded="true" />
+                <element signature="e#31663#31668#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -304,11 +330,6 @@
                 <option name="name" value="copyDebugLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
@@ -332,6 +353,11 @@
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadocJar" />
               </ExternalTaskPojo>
@@ -344,6 +370,11 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-auth-base:9.8.0" />
@@ -522,6 +553,11 @@
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
@@ -556,6 +592,11 @@
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles all the Test applications." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleAndroidTest" />
@@ -572,6 +613,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportDesign2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -610,11 +656,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNativeLibsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -661,8 +702,18 @@
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServicesFitness980Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -808,6 +859,11 @@
                 <option name="name" value="mergeDebugProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.firebase:firebase-storage-common:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComGoogleFirebaseFirebaseStorageCommon980Library" />
@@ -816,6 +872,11 @@
                 <option name="description" value="Prepare me.dm7.barcodescanner:zxing:1.9" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareMeDm7BarcodescannerZxing19Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -896,11 +957,6 @@
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugResources" />
               </ExternalTaskPojo>
@@ -933,9 +989,9 @@
                 <option name="name" value="mergeDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.0.0" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2500Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -984,9 +1040,9 @@
                 <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.0.0" />
+                <option name="description" value="Prepare com.karumi:dexter:4.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2500Library" />
+                <option name="name" value="prepareComKarumiDexter410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1064,11 +1120,6 @@
                 <option name="name" value="transformNativeLibsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAidl" />
               </ExternalTaskPojo>
@@ -1119,13 +1170,13 @@
                 <option name="name" value="processDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:transition:25.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileReleaseJavaWithJavac" />
+                <option name="name" value="prepareComAndroidSupportTransition2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2500Library" />
+                <option name="name" value="compileReleaseJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.firebase:firebase-auth:9.8.0" />
@@ -1185,11 +1236,6 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-awareness:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAwareness980Library" />
@@ -1220,6 +1266,11 @@
                 <option name="description" value="Prepare com.google.android.gms:play-services-ads-lite:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsLite980Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-analytics-impl:9.8.0" />
@@ -1285,11 +1336,6 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.firebase:firebase-common:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComGoogleFirebaseFirebaseCommon980Library" />
@@ -1332,11 +1378,6 @@
                 <option name="name" value="copyDebugLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
@@ -1360,6 +1401,11 @@
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="javadocJar" />
               </ExternalTaskPojo>
@@ -1372,6 +1418,11 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-auth-base:9.8.0" />
@@ -1550,6 +1601,11 @@
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
@@ -1584,6 +1640,11 @@
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportSupportV42520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles all the Test applications." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="assembleAndroidTest" />
@@ -1600,6 +1661,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="mergeDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportDesign2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
@@ -1638,11 +1704,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="transformNativeLibsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
@@ -1689,8 +1750,18 @@
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServicesFitness980Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
@@ -1836,6 +1907,11 @@
                 <option name="name" value="mergeDebugProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.firebase:firebase-storage-common:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="prepareComGoogleFirebaseFirebaseStorageCommon980Library" />
@@ -1844,6 +1920,11 @@
                 <option name="description" value="Prepare me.dm7.barcodescanner:zxing:1.9" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="prepareMeDm7BarcodescannerZxing19Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
@@ -1919,11 +2000,6 @@
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="generateDebugResources" />
               </ExternalTaskPojo>
@@ -1956,9 +2032,9 @@
                 <option name="name" value="mergeDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.0.0" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2500Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
@@ -2007,9 +2083,9 @@
                 <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.0.0" />
+                <option name="description" value="Prepare com.karumi:dexter:4.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2500Library" />
+                <option name="name" value="prepareComKarumiDexter410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
@@ -2087,11 +2163,6 @@
                 <option name="name" value="transformNativeLibsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="compileDebugAidl" />
               </ExternalTaskPojo>
@@ -2137,13 +2208,13 @@
                 <option name="name" value="processDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:transition:25.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="compileReleaseJavaWithJavac" />
+                <option name="name" value="prepareComAndroidSupportTransition2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2500Library" />
+                <option name="name" value="compileReleaseJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.firebase:firebase-auth:9.8.0" />
@@ -2203,11 +2274,6 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-awareness:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAwareness980Library" />
@@ -2238,6 +2304,11 @@
                 <option name="description" value="Prepare com.google.android.gms:play-services-ads-lite:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsLite980Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-analytics-impl:9.8.0" />
@@ -2304,11 +2375,6 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
-                <option name="name" value="prepareComAndroidSupportSupportV42500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.firebase:firebase-common:9.8.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/box24sdk" />
                 <option name="name" value="prepareComGoogleFirebaseFirebaseCommon980Library" />
@@ -2325,7 +2391,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4463714809000" />
+        <entry key="$PROJECT_DIR$" value="4463795409000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2760,56 +2826,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivitySGWashboxMenu.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivitySGWashboxDrop.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityWashboxServiceLocker.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityIntroduce.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivitySGWashboxDropQuickPin.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_introduce.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_service_item.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/drawable/bg_rec_stoke_red.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Pic.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/ServiceConnection.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/LocationBox24.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Menu.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/debug/res/values/google_maps_api.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/release/res/values/google_maps_api.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableWashbox.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_dry.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_laundry.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_laundry_dry.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java" />
         <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_box24_location.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml" />
+        <option value="$PROJECT_DIR$/box24sdk/build/intermediates/res/merged/debug/layout/fragment_washbox_info_location_map.xml" />
         <option value="$PROJECT_DIR$/box24sdk/build.gradle" />
       </list>
     </option>
@@ -2844,6 +2910,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2950,7 +3019,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2980,7 +3049,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3011,6 +3080,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="box24sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Box24SDKGitHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Box24SDKGitHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box24sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box24sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3087,9 +3190,6 @@
       <pane id="AndroidView">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3115,8 +3215,8 @@
       <recent name="box24.com.box24sdk.fragment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/box24sdk/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/box24sdk/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/box24sdk/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/box24sdk" />
       <recent name="$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment" />
@@ -3589,7 +3689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491894998940</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add laundry">
+      <created>1491910770087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491910770087</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3602,8 +3709,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="829" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="829" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3611,8 +3718,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5904628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1823282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819074" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
@@ -3620,6 +3727,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28397712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3637,7 +3745,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3655,7 +3762,8 @@
     <MESSAGE value="rename" />
     <MESSAGE value="never show again" />
     <MESSAGE value="add map" />
-    <option name="LAST_COMMIT_MESSAGE" value="add map" />
+    <MESSAGE value="add laundry" />
+    <option name="LAST_COMMIT_MESSAGE" value="add laundry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3664,189 +3772,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values-w820dp/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/release/res/values/google_maps_api.xml" />
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/debug/res/values/google_maps_api.xml" />
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/MapsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/ServiceConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="116" column="81" selection-start-line="116" selection-start-column="81" selection-end-line="116" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/build2.gradle" />
-    <entry file="file://$PROJECT_DIR$/box24sdk/build/tmp/javadoc/javadoc.options">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableWashbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_service_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/box_ic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/ic_info.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/ic_pickup.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/pin_ic.png" />
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
-          <folding>
-            <element signature="e#1381#1399#0" expanded="false" />
-            <element signature="e#6857#6874#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#9484#9485#0" expanded="false" />
-            <element signature="e#9508#9509#0" expanded="false" />
-            <marker date="1491888238000" expanded="false" signature="5867:5913" ph="&quot;Locker - Select Terminal Locker&quot;" />
-            <marker date="1491888238000" expanded="false" signature="5946:5986" ph="&quot;Select Terminal Locker&quot;" />
-            <marker date="1491888238000" expanded="false" signature="6039:6079" ph="&quot;Select Starting Locker&quot;" />
-            <marker date="1491888238000" expanded="false" signature="6112:6152" ph="&quot;Select Starting Locker&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/express_btn_active.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3865,122 +3796,6 @@
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/pin_icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2483">
-          <caret line="226" column="5" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="197" column="37" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
-          <folding>
-            <element signature="e#9624#9625#0" expanded="false" />
-            <element signature="e#9657#9658#0" expanded="false" />
-            <element signature="e#9708#9709#0" expanded="false" />
-            <element signature="e#9740#9741#0" expanded="false" />
-            <element signature="e#10317#10318#0" expanded="false" />
-            <element signature="e#10341#10342#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-          <folding>
-            <marker date="1491818236000" expanded="true" signature="6059:6082" ph="&quot;Promotion Code&quot;" />
-            <marker date="1491818236000" expanded="false" signature="6244:6264" ph="&quot;14sp&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="90" column="68" selection-start-line="90" selection-start-column="68" selection-end-line="90" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="591" column="0" selection-start-line="591" selection-start-column="0" selection-end-line="591" selection-end-column="0" />
-          <folding>
-            <element signature="e#8383#8388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="e#2903#3414#0" expanded="false" />
-            <element signature="e#3413#3414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/selector_dry.xml">
@@ -4033,25 +3848,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml">
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/model/Locker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/JsonParserWashbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="350" column="51" selection-start-line="350" selection-start-column="51" selection-end-line="350" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_introduce.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
+        <state relative-caret-position="257">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
-            <element signature="e#1148#1165#0" expanded="true" />
-            <element signature="e#1688#1723#0" expanded="true" />
-            <element signature="e#1790#1809#0" expanded="true" />
-            <element signature="e#3246#3263#0" expanded="true" />
-            <element signature="e#3354#3373#0" expanded="true" />
-            <element signature="e#4480#4501#0" expanded="true" />
-            <element signature="e#4592#4611#0" expanded="true" />
-            <element signature="e#5726#5754#0" expanded="true" />
-            <element signature="e#5845#5864#0" expanded="true" />
-            <element signature="e#6142#6156#0" expanded="true" />
-            <element signature="e#6231#6250#0" expanded="true" />
+            <element signature="e#1352#1376#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4061,9 +3882,169 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        <state relative-caret-position="244">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="e#1148#1167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_location_detail.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24DropQuickPin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop_quickpin.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
+          <folding>
+            <element signature="e#3020#3042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_pink.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_yellow2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_yellow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/mipmap-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Introduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <folding>
+            <element signature="e#1119#1140#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationFavorite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="118" column="57" selection-start-line="118" selection-start-column="57" selection-end-line="118" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/VariableMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_map_list.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="145" column="58" selection-start-line="145" selection-start-column="58" selection-end-line="145" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable-xxhdpi/map_locker_pin_india.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocationDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="69" column="84" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="84" />
+          <folding>
+            <marker date="1491983437000" expanded="false" signature="5879:5925" ph="&quot;Locker - Select Terminal Locker&quot;" />
+            <marker date="1491983437000" expanded="false" signature="5958:5998" ph="&quot;Select Terminal Locker&quot;" />
+            <marker date="1491983437000" expanded="false" signature="6051:6091" ph="&quot;Select Starting Locker&quot;" />
+            <marker date="1491983437000" expanded="false" signature="6124:6164" ph="&quot;Select Starting Locker&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/fragment/FragmentLocationMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/utils/UtilsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="338" column="62" selection-start-line="338" selection-start-column="62" selection-end-line="338" selection-end-column="62" />
+          <folding>
+            <element signature="e#10059#10083#0" expanded="true" />
+            <element signature="e#10632#10656#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4072,18 +4053,185 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="60" column="62" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+        <state relative-caret-position="166">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="e#2001#2020#0" expanded="true" />
+            <element signature="e#2541#2564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="225" column="64" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Drop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <element signature="e#2818#5376#0" expanded="false" />
+            <element signature="e#5375#5376#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_sg_washbox_drop.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="e#3830#3849#0" expanded="true" />
+            <marker date="1491984154000" expanded="true" signature="6427:6450" ph="&quot;Promotion Code&quot;" />
+            <marker date="1491984154000" expanded="false" signature="6612:6632" ph="&quot;14sp&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Laundry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#3210#3255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="87" column="81" selection-start-line="87" selection-start-column="81" selection-end-line="87" selection-end-column="81" />
+          <folding>
+            <element signature="e#3463#3479#0" expanded="true" />
+            <element signature="e#4410#4978#0" expanded="true" />
+            <element signature="e#4977#4978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/row_washbox_service_locker.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_maps.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_laundry.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="165" column="36" selection-start-line="165" selection-start-column="36" selection-end-line="165" selection-end-column="36" />
+          <folding>
+            <element signature="e#1790#1809#0" expanded="true" />
+            <element signature="e#5726#5754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="587" column="51" selection-start-line="587" selection-start-column="51" selection-end-line="587" selection-end-column="51" />
+          <folding>
+            <element signature="e#8372#8377#0" expanded="true" />
+            <element signature="e#31663#31668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/java/box24/com/box24sdk/activity/ActivityBox24Locker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="159" column="45" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/activity_washbox_service_locker.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
+          <folding>
+            <element signature="e#6005#6036#0" expanded="true" />
+            <element signature="e#6543#6562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/drawable/point_blue.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/build/intermediates/res/merged/debug/layout/fragment_washbox_info_location_map.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box24sdk/src/main/res/layout/fragment_washbox_info_location_map.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/box24sdk/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="230">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1491910495000" expanded="true" signature="1755:1930" ph="..." />
+            <marker date="1491991095000" expanded="true" signature="1793:1968" ph="..." />
           </folding>
         </state>
       </provider>

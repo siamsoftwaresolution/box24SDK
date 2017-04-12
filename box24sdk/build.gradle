@@ -15,7 +15,7 @@ ext {
     siteUrl = 'https://github.com/siamsoftwaresolution/box24SDK'
     gitUrl = 'https://github.com/siamsoftwaresolution/box24SDK.git'
 
-    libraryVersion = '2.33'
+    libraryVersion = '2.47'
 
     developerId = 'manasit'
     developerName = 'manasit kittiyotthada'
@@ -51,6 +51,7 @@ tasks.withType(Javadoc) {
     options.addStringOption('charSet', 'UTF-8')
 }
 dependencies {
+    compile 'com.karumi:dexter:4.1.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
